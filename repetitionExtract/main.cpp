@@ -7,13 +7,20 @@
 //
 
 #include <iostream>
+#include "repetitionExtract.h"
 
 
 int main(int argc, const char * argv[])
 {
+    
+    repetitionExtract repEx = repetitionExtract();
+    repEx.extract("/Users/xup6qup3/Google Drive/code/Dev.temp/repetitionExtract/repetitionExtract/tl5.jpg");
+    
+    
+    
+    
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
     return 0;
 }
 
+ 
