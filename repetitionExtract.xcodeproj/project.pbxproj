@@ -81,6 +81,9 @@
 		26CA3B86171D485900D4C52D /* tl2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tl2.jpg; sourceTree = "<group>"; };
 		26CA3B87171D4B9600D4C52D /* symmetryDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = symmetryDetection.cpp; sourceTree = "<group>"; };
 		26CA3B88171D4B9600D4C52D /* symmetryDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symmetryDetection.h; sourceTree = "<group>"; };
+		26E34B70171ECC9D004E7D16 /* butter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = butter.jpg; sourceTree = "<group>"; };
+		26E34B71171EE60A004E7D16 /* tl5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tl5.jpg; sourceTree = "<group>"; };
+		26E34B72171EE6BF004E7D16 /* tl3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tl3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				26CA3B86171D485900D4C52D /* tl2.jpg */,
+				26E34B71171EE60A004E7D16 /* tl5.jpg */,
+				26E34B72171EE6BF004E7D16 /* tl3.jpg */,
 			);
 			name = "tatting patterns";
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			children = (
 				26312E5B171C3DF40098B1A6 /* tatting patterns */,
 				26789E31171BD8EA007FF1EA /* main.cpp */,
+				26E34B70171ECC9D004E7D16 /* butter.jpg */,
 				2617237A171BE02C0001E0E9 /* repetitionExtract.h */,
 				26172379171BE02C0001E0E9 /* repetitionExtract.cpp */,
 				26CA3B88171D4B9600D4C52D /* symmetryDetection.h */,

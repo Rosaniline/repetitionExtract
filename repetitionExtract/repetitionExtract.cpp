@@ -29,11 +29,25 @@ void repetitionExtract::extract (const string &pattern_path) {
     findBarycentre();
     
     
-    int slices = 6;//extractNumSlice();
+    int slices = extractNumSlice();
     
     
     symmetryDetection symDetect = symmetryDetection();
-    symDetect.detect(pattern);
+    double sym_angle = symDetect.detectSymmetryAngle(pattern);
+
+    
+    
+    for (int i = 0; i < slices/2; i ++) {
+
+        infLine(pattern, centroid, tan((i*(360/slices) + sym_angle)/180*PI));
+    }
+    
+    showMat(pattern);
+    
+    
+    
+//    cout<<sym_angle;
+    
     
     
 }
@@ -103,13 +117,13 @@ int repetitionExtract::extractNumSlice() {
         }
     }
     
-    diff_map = diff_map.t();
-    imwrite("/Users/xup6qup3/Google Drive/code/Dev.temp/repetitionExtract/repetitionExtract/tl_2_diff.jpg", diff_map);
+//    diff_map = diff_map.t();
+//    imwrite("/Users/xup6qup3/Google Drive/code/Dev.temp/repetitionExtract/repetitionExtract/tl_2_diff.jpg", diff_map);
 //    showMat(diff_map);
     
     threshold(diff_map, diff_map, 0, 255, THRESH_OTSU);
     
-    imwrite("/Users/xup6qup3/Google Drive/code/Dev.temp/repetitionExtract/repetitionExtract/tl_2_diff_th.jpg", diff_map);
+//    imwrite("/Users/xup6qup3/Google Drive/code/Dev.temp/repetitionExtract/repetitionExtract/tl_2_diff_th.jpg", diff_map);
     
     int slices = 0;
     for (int i = 1; i < diff_map.rows; i ++) {
@@ -119,8 +133,8 @@ int repetitionExtract::extractNumSlice() {
         }
     }
     
-    cout<<slices;
-    showMat(diff_map);
+//    cout<<slices;
+//    showMat(diff_map);
 
     
     return slices;
