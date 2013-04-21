@@ -14,7 +14,7 @@ int main(int argc, const char * argv[])
 {
     
     repetitionExtract repEx = repetitionExtract();
-    repEx.extract("/Users/xup6qup3/Google Drive/code/Dev.temp/repetitionExtract/repetitionExtract/tl2.jpg");
+    repEx.extract("/Users/xup6qup3/Google Drive/code/Dev.temp/repetitionExtract/repetitionExtract/tl5.jpg");
 
     
     

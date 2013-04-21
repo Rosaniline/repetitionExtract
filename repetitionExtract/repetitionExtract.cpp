@@ -20,16 +20,16 @@ repetitionExtract::~repetitionExtract () {
 
 void repetitionExtract::extract (const string &pattern_path) {
     
+    Mat input_pattern, pattern;
     input_pattern = imread(pattern_path.c_str());
-    cvtColor(input_pattern, pattern, CV_BGR2GRAY);
     
+    cvtColor(input_pattern, pattern, CV_BGR2GRAY);
     resizeMat(pattern, 0.4);
     
     
-    findBarycentre();
+    int slices = extractNumSlice(pattern, getCentroid(pattern));
     
-    
-    int slices = extractNumSlice();
+    cout<<"Detected slices = "<<slices<<endl;
     
     
     symmetryDetection symDetect = symmetryDetection();
@@ -39,26 +39,24 @@ void repetitionExtract::extract (const string &pattern_path) {
     
     for (int i = 0; i < slices/2; i ++) {
 
-        infLine(pattern, centroid, tan((i*(360/slices) + sym_angle)/180*PI));
+        infLine(pattern, getCentroid(pattern), tan((i*(360/slices) + sym_angle)/180*PI));
     }
     
     showMat(pattern);
     
-    
-    
-//    cout<<sym_angle;
+
     
     
     
 }
 
 
-void repetitionExtract::findBarycentre() {
+Point repetitionExtract::getCentroid(const cv::Mat &img) {
     
     
-    Moments mo = moments(pattern);
+    Moments mo = moments(img);
     
-    centroid = Point(mo.m10/mo.m00, mo.m01/mo.m00);
+    return Point(mo.m10/mo.m00, mo.m01/mo.m00);
 
 }
 
@@ -66,121 +64,65 @@ void repetitionExtract::findBarycentre() {
 
 
 
-int repetitionExtract::extractNumSlice() {
+int repetitionExtract::extractNumSlice(const cv::Mat &img, const Point &centroid) {
     
     
-    vector<double> opt_diff;
-    double opt_diff_val = INFINITY;
-    Point opt_centroid = centroid;
-    
-    // Centroid Refinement
-    for (int i = -REFINEMENT_WIDTH; i <= REFINEMENT_WIDTH; i ++) {
-        for (int j = -REFINEMENT_WIDTH; j <= REFINEMENT_WIDTH; j ++) {
-            
-            vector<double> local_diff = rotatePattern(pattern, centroid + Point(i, j));
-            
-            
-            double local_diff_val = 0.0;
-            accumulate(local_diff.begin(), local_diff.end(), local_diff_val);
-            
-            
-            if ( opt_diff_val > local_diff_val ) {
-                
-                opt_diff_val = local_diff_val;
-                opt_diff.swap(local_diff);
-                opt_centroid = centroid + Point(i, j);
-            }
-        }
-    }
-    
-    
-    
-    double max = *max_element(opt_diff.begin(), opt_diff.end()), min = *min_element(opt_diff.begin(), opt_diff.end());
-    
-    for_each(opt_diff.begin(), opt_diff.end(), [&](double &x) {
-
-        x = (x - min)*(255.0 / (max - min));
-
-    });
-    
-    Mat diff_map = Mat((int)opt_diff.size(), 200, CV_8UC1);
-    
-
-    for (int i = 0; i < diff_map.rows; i ++) {
-
-        int k = opt_diff[i];
-
-
-        for (int j = 0; j < diff_map.cols; j ++) {
-
-            diff_map.at<uchar>(i, j) = k;
-        }
-    }
-    
-//    diff_map = diff_map.t();
-//    imwrite("/Users/xup6qup3/Google Drive/code/Dev.temp/repetitionExtract/repetitionExtract/tl_2_diff.jpg", diff_map);
-//    showMat(diff_map);
-    
-    threshold(diff_map, diff_map, 0, 255, THRESH_OTSU);
-    
-//    imwrite("/Users/xup6qup3/Google Drive/code/Dev.temp/repetitionExtract/repetitionExtract/tl_2_diff_th.jpg", diff_map);
-    
+    Mat shrink_img = img.clone();
     int slices = 0;
-    for (int i = 1; i < diff_map.rows; i ++) {
+
+    resizeMat(shrink_img, 0.5);
+
+    
+    Mat rotate_diff = getRotateDiff(shrink_img, getCentroid(shrink_img));
+    
+    threshold(rotate_diff, rotate_diff, 0, 255, THRESH_OTSU);
+    
+//    showMat(rotate_diff);
+    
+    for (int i = 1; i < rotate_diff.rows; i ++) {
         
-        if ( diff_map.at<uchar>(i - 1, 0) < diff_map.at<uchar>(i, 0) ) {
+        if ( rotate_diff.at<uchar>(i, 0) > rotate_diff.at<uchar>(i - 1, 0)) {
             slices ++;
         }
     }
     
-//    cout<<slices;
-//    showMat(diff_map);
-
     
     return slices;
 }
 
 
-vector<double> repetitionExtract::rotatePattern(cv::Mat &pattern, Point centroid) {
+Mat repetitionExtract::getRotateDiff(const cv::Mat &img, const Point &centroid) {
     
-    vector<double> ang_diff;
+    Mat ang_diff = Mat(360, 1, CV_64FC1);
+    double diff_max = 0.0, diff_min = 0.0;
     
-    for (double ang = 1; ang < 360.0; ang += 0.5) {
+    for (double ang = 0; ang < 360.0; ang += 1) {
         
-        Mat rotate_mat = getRotationMatrix2D(Point(centroid), ang, 1.0);
+        Mat rotate_mat = getRotationMatrix2D(centroid, ang, 1.0);
         
-        Mat rotated_pattern = pattern.clone().setTo(0);
+        Mat rotated_img = img.clone().setTo(0);
         
-        warpAffine(pattern, rotated_pattern, rotate_mat, pattern.size());
+        warpAffine(img, rotated_img, rotate_mat, img.size());
         
         
-        Mat diff = pattern.clone().setTo(0);
-        absdiff(pattern, rotated_pattern, diff);
+        Mat diff = img.clone().setTo(0);
+        absdiff(img, rotated_img, diff);
         
-        ang_diff.push_back(sum(diff)[0]);
+        ang_diff.at<double>(ang, 0) = sum(diff)[0];
         
     }
+    
+    
+    minMaxIdx(ang_diff, &diff_min, &diff_max);
+    
+    ang_diff = (ang_diff - diff_min)*(255/(diff_max - diff_min));
+    
+    ang_diff.convertTo(ang_diff, CV_8UC1);
+    
     
     return ang_diff;
     
-    
-    
 }
-
-
-void repetitionExtract::plotSlice(int slice_num) {
-    
-    for (double i = 0.0; i < 5; i += 0.01) {
-        infLine(input_pattern, centroid, -i);
-    }
-    
-    
-    
-    
-    
-}
-
-
 
 
 

@@ -22,28 +22,19 @@ public:
     repetitionExtract();
     ~repetitionExtract();
     
+    // extracts the symmetric element of the image stored in the input path
     void extract(const string& pattern_path);
     
 private:
     
+    // returns the centroid of the input image
+    Point getCentroid (const Mat& img);
     
-    void findBarycentre ();
+    // returns the number of symmetric slice of the input image
+    int extractNumSlice (const Mat& img, const Point& centroid);
     
-    int extractNumSlice ();
-    
-    
-    
-    vector<double> rotatePattern (Mat& pattern , Point centroid);
-    
-    void plotSlice (int slice_num);
-    
-    
-    
-    
-    Mat input_pattern, pattern;
-    Point centroid;
-    
-    const static int REFINEMENT_WIDTH       =  0;
+    // subfunction of "extractNumSlice", returns the difference after rotation for 360 degrees
+    Mat getRotateDiff (const Mat& img , const Point& centroid);
     
     
 };

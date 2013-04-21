@@ -29,33 +29,34 @@ public:
     
 private:
     
-//    Mat img;
     
-    
-    // return the min radius that contains whole object in the input image
+    // returns the min radius that contains whole object in the input image
     int getMinContainingRadius (const Mat& img);
     
-    // reture the centroid of input image using firsr order image moment
+    // retures the centroid of input image using firsr order image moment
     Point getCentroid (const Mat& img);
     
-    // return the vector contains all circle points of given redius w.r.t the given centroid
+    // returns the vector contains all circle points of given redius w.r.t the given centroid
     vector<Point> getCirclePoint (const Point& centroid, int radius);
     
     
-    double getSymmetricAngle (const Mat& img);
-    
-    
+    // returns sum( mat[i]*mat[n - i] ) for i = 1...n
     double convolveMat (const Mat& mat);
     
-    
+    // shifts all elements one step forward within the given matrix
     void shiftMatElement (Mat& mat);
     
-    int mode (vector<int> array);
+    // returns the mode of the given array
+    int mode (const vector<int>& array);
     
     
+    // The minimum radius while traveling all radiuses
+    static const int INNER_MOST_RADIUS       = 20;
     
-    static const int INNER_MOST_RADIUS       = 50;
+    // The minimum radius while sampling circles
     static const int CONCENTRIC_MIN_RADIUS   = 20;
+    
+    // The sample step
     static const int CONCENTRIC_SAMPLE_STEP  = 3;
     
     
