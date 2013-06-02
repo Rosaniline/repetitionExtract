@@ -11,7 +11,7 @@
 
 #include <iostream>
 #include <cmath>
-#include "RosaniTools.h"
+#include "Rosaniline.h"
 
 #define PI 3.1415926535897932384626433832795
 
@@ -24,20 +24,19 @@ public:
     symmetryDetection();
     ~symmetryDetection();
     
-    double detectSymmetryAngle (const Mat& img);
+    double detectSymmetryAngle (const Mat& pattern, const Point& centroid);
     
+    
+    friend class tattingPattern;
     
 private:
     
     
     // returns the min radius that contains whole object in the input image
-    int getMinContainingRadius (const Mat& img);
-    
-    // retures the centroid of input image using firsr order image moment
-    Point getCentroid (const Mat& img);
+    int getMinContainingRadius (const Mat& pattern, const Point& centroid);
     
     // returns the vector contains all circle points of given redius w.r.t the given centroid
-    vector<Point> getCirclePoint (const Point& centroid, int radius);
+//    vector<Point> getCirclePoint (const Point& centroid, int radius);
     
     
     // returns sum( mat[i]*mat[n - i] ) for i = 1...n
@@ -58,6 +57,7 @@ private:
     
     // The sample step
     static const int CONCENTRIC_SAMPLE_STEP  = 3;
+    
     
     
 };

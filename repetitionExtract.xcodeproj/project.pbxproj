@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2617237B171BE02C0001E0E9 /* repetitionExtract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26172379171BE02C0001E0E9 /* repetitionExtract.cpp */; };
+		2617237B171BE02C0001E0E9 /* detectSliceNum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26172379171BE02C0001E0E9 /* detectSliceNum.cpp */; };
+		262CFA391753999D0034CB3A /* offsetElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 262CFA371753999D0034CB3A /* offsetElement.cpp */; };
+		262D5F9517378F4D0089D352 /* RosaniDataStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 262D5F8A17378F4D0089D352 /* RosaniDataStructure.cpp */; };
+		262D5F9617378F4D0089D352 /* RosaniDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 262D5F8C17378F4D0089D352 /* RosaniDisplay.cpp */; };
+		262D5F9717378F4D0089D352 /* RosaniDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 262D5F8E17378F4D0089D352 /* RosaniDraw.cpp */; };
+		262D5F9817378F4D0089D352 /* RosaniPatchTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 262D5F9117378F4D0089D352 /* RosaniPatchTools.cpp */; };
+		262D5F9917378F4D0089D352 /* RosaniTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 262D5F9317378F4D0089D352 /* RosaniTools.cpp */; };
+		262E18511748BA4200860B71 /* RosMat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 262E184F1748BA4200860B71 /* RosMat.cpp */; };
+		2637AEDE175481A600F4420D /* sliceSynthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2637AEDC175481A600F4420D /* sliceSynthesis.cpp */; };
+		263F6CE31753AA6000685D8E /* PatchMatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 263F6CE11753AA6000685D8E /* PatchMatch.cpp */; };
 		26789E32171BD8EA007FF1EA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26789E31171BD8EA007FF1EA /* main.cpp */; };
 		26789E34171BD8EA007FF1EA /* repetitionExtract.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 26789E33171BD8EA007FF1EA /* repetitionExtract.1 */; };
-		26789E64171BD9A1007FF1EA /* RosaniDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26789E5E171BD9A1007FF1EA /* RosaniDraw.cpp */; };
-		26789E65171BD9A1007FF1EA /* RosaniPatchTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26789E60171BD9A1007FF1EA /* RosaniPatchTools.cpp */; };
-		26789E66171BD9A1007FF1EA /* RosaniTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26789E62171BD9A1007FF1EA /* RosaniTools.cpp */; };
 		267D2BAE171BE81800F330EE /* libopencv_calib3d.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 267D2B9C171BE81800F330EE /* libopencv_calib3d.2.4.5.dylib */; };
 		267D2BAF171BE81800F330EE /* libopencv_contrib.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 267D2B9D171BE81800F330EE /* libopencv_contrib.2.4.5.dylib */; };
 		267D2BB0171BE81800F330EE /* libopencv_core.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 267D2B9E171BE81800F330EE /* libopencv_core.2.4.5.dylib */; };
@@ -32,6 +38,7 @@
 		267D2BBE171BE81800F330EE /* libopencv_video.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 267D2BAC171BE81800F330EE /* libopencv_video.2.4.5.dylib */; };
 		267D2BBF171BE81800F330EE /* libopencv_videostab.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 267D2BAD171BE81800F330EE /* libopencv_videostab.2.4.5.dylib */; };
 		26CA3B89171D4B9600D4C52D /* symmetryDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26CA3B87171D4B9600D4C52D /* symmetryDetection.cpp */; };
+		26E88D03173891DF0089FA07 /* tattingPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26E88D01173891DF0089FA07 /* tattingPattern.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,17 +56,31 @@
 
 /* Begin PBXFileReference section */
 		26172378171BDF990001E0E9 /* rtx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rtx.png; sourceTree = "<group>"; };
-		26172379171BE02C0001E0E9 /* repetitionExtract.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = repetitionExtract.cpp; sourceTree = "<group>"; };
-		2617237A171BE02C0001E0E9 /* repetitionExtract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = repetitionExtract.h; sourceTree = "<group>"; };
+		26172379171BE02C0001E0E9 /* detectSliceNum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = detectSliceNum.cpp; sourceTree = "<group>"; };
+		2617237A171BE02C0001E0E9 /* detectSliceNum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detectSliceNum.h; sourceTree = "<group>"; };
+		262CFA361753999D0034CB3A /* offsetElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = offsetElement.h; sourceTree = "<group>"; };
+		262CFA371753999D0034CB3A /* offsetElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = offsetElement.cpp; sourceTree = "<group>"; };
+		262D5F8A17378F4D0089D352 /* RosaniDataStructure.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RosaniDataStructure.cpp; path = ../../Rosani.Lib/RosaniDataStructure.cpp; sourceTree = "<group>"; };
+		262D5F8B17378F4D0089D352 /* RosaniDataStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RosaniDataStructure.h; path = ../../Rosani.Lib/RosaniDataStructure.h; sourceTree = "<group>"; };
+		262D5F8C17378F4D0089D352 /* RosaniDisplay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RosaniDisplay.cpp; path = ../../Rosani.Lib/RosaniDisplay.cpp; sourceTree = "<group>"; };
+		262D5F8D17378F4D0089D352 /* RosaniDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RosaniDisplay.h; path = ../../Rosani.Lib/RosaniDisplay.h; sourceTree = "<group>"; };
+		262D5F8E17378F4D0089D352 /* RosaniDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RosaniDraw.cpp; path = ../../Rosani.Lib/RosaniDraw.cpp; sourceTree = "<group>"; };
+		262D5F8F17378F4D0089D352 /* RosaniDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RosaniDraw.h; path = ../../Rosani.Lib/RosaniDraw.h; sourceTree = "<group>"; };
+		262D5F9017378F4D0089D352 /* Rosaniline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rosaniline.h; path = ../../Rosani.Lib/Rosaniline.h; sourceTree = "<group>"; };
+		262D5F9117378F4D0089D352 /* RosaniPatchTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RosaniPatchTools.cpp; path = ../../Rosani.Lib/RosaniPatchTools.cpp; sourceTree = "<group>"; };
+		262D5F9217378F4D0089D352 /* RosaniPatchTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RosaniPatchTools.h; path = ../../Rosani.Lib/RosaniPatchTools.h; sourceTree = "<group>"; };
+		262D5F9317378F4D0089D352 /* RosaniTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RosaniTools.cpp; path = ../../Rosani.Lib/RosaniTools.cpp; sourceTree = "<group>"; };
+		262D5F9417378F4D0089D352 /* RosaniTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RosaniTools.h; path = ../../Rosani.Lib/RosaniTools.h; sourceTree = "<group>"; };
+		262D5F9A173792850089D352 /* tl6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tl6.jpg; sourceTree = "<group>"; };
+		262E184F1748BA4200860B71 /* RosMat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RosMat.cpp; path = ../../Rosani.Lib/RosMat.cpp; sourceTree = "<group>"; };
+		262E18501748BA4200860B71 /* RosMat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RosMat.h; path = ../../Rosani.Lib/RosMat.h; sourceTree = "<group>"; };
+		2637AEDC175481A600F4420D /* sliceSynthesis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sliceSynthesis.cpp; sourceTree = "<group>"; };
+		2637AEDD175481A600F4420D /* sliceSynthesis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sliceSynthesis.h; sourceTree = "<group>"; };
+		263F6CE11753AA6000685D8E /* PatchMatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PatchMatch.cpp; sourceTree = "<group>"; };
+		263F6CE21753AA6000685D8E /* PatchMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatchMatch.h; sourceTree = "<group>"; };
 		26789E2E171BD8EA007FF1EA /* repetitionExtract */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = repetitionExtract; sourceTree = BUILT_PRODUCTS_DIR; };
 		26789E31171BD8EA007FF1EA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		26789E33171BD8EA007FF1EA /* repetitionExtract.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = repetitionExtract.1; sourceTree = "<group>"; };
-		26789E5E171BD9A1007FF1EA /* RosaniDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RosaniDraw.cpp; path = ../../Rosani.Lib/RosaniDraw.cpp; sourceTree = "<group>"; };
-		26789E5F171BD9A1007FF1EA /* RosaniDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RosaniDraw.h; path = ../../Rosani.Lib/RosaniDraw.h; sourceTree = "<group>"; };
-		26789E60171BD9A1007FF1EA /* RosaniPatchTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RosaniPatchTools.cpp; path = ../../Rosani.Lib/RosaniPatchTools.cpp; sourceTree = "<group>"; };
-		26789E61171BD9A1007FF1EA /* RosaniPatchTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RosaniPatchTools.h; path = ../../Rosani.Lib/RosaniPatchTools.h; sourceTree = "<group>"; };
-		26789E62171BD9A1007FF1EA /* RosaniTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RosaniTools.cpp; path = ../../Rosani.Lib/RosaniTools.cpp; sourceTree = "<group>"; };
-		26789E63171BD9A1007FF1EA /* RosaniTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RosaniTools.h; path = ../../Rosani.Lib/RosaniTools.h; sourceTree = "<group>"; };
 		267D2B9C171BE81800F330EE /* libopencv_calib3d.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_calib3d.2.4.5.dylib; path = /opt/local/lib/libopencv_calib3d.2.4.5.dylib; sourceTree = "<absolute>"; };
 		267D2B9D171BE81800F330EE /* libopencv_contrib.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_contrib.2.4.5.dylib; path = /opt/local/lib/libopencv_contrib.2.4.5.dylib; sourceTree = "<absolute>"; };
 		267D2B9E171BE81800F330EE /* libopencv_core.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.5.dylib; path = /opt/local/lib/libopencv_core.2.4.5.dylib; sourceTree = "<absolute>"; };
@@ -84,6 +105,8 @@
 		26E34B70171ECC9D004E7D16 /* butter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = butter.jpg; sourceTree = "<group>"; };
 		26E34B71171EE60A004E7D16 /* tl5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tl5.jpg; sourceTree = "<group>"; };
 		26E34B72171EE6BF004E7D16 /* tl3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tl3.jpg; sourceTree = "<group>"; };
+		26E88D01173891DF0089FA07 /* tattingPattern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tattingPattern.cpp; sourceTree = "<group>"; };
+		26E88D02173891DF0089FA07 /* tattingPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tattingPattern.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,12 +138,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		262CFA33175399620034CB3A /* NOT USING */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "NOT USING";
+			sourceTree = "<group>";
+		};
 		26312E5B171C3DF40098B1A6 /* tatting patterns */ = {
 			isa = PBXGroup;
 			children = (
 				26CA3B86171D485900D4C52D /* tl2.jpg */,
-				26E34B71171EE60A004E7D16 /* tl5.jpg */,
 				26E34B72171EE6BF004E7D16 /* tl3.jpg */,
+				26E34B71171EE60A004E7D16 /* tl5.jpg */,
+				262D5F9A173792850089D352 /* tl6.jpg */,
+				26E34B70171ECC9D004E7D16 /* butter.jpg */,
 			);
 			name = "tatting patterns";
 			sourceTree = "<group>";
@@ -146,13 +178,21 @@
 		26789E30171BD8EA007FF1EA /* repetitionExtract */ = {
 			isa = PBXGroup;
 			children = (
+				262CFA33175399620034CB3A /* NOT USING */,
 				26312E5B171C3DF40098B1A6 /* tatting patterns */,
-				26789E31171BD8EA007FF1EA /* main.cpp */,
-				26E34B70171ECC9D004E7D16 /* butter.jpg */,
-				2617237A171BE02C0001E0E9 /* repetitionExtract.h */,
-				26172379171BE02C0001E0E9 /* repetitionExtract.cpp */,
+				26E88D02173891DF0089FA07 /* tattingPattern.h */,
+				26E88D01173891DF0089FA07 /* tattingPattern.cpp */,
+				2617237A171BE02C0001E0E9 /* detectSliceNum.h */,
+				26172379171BE02C0001E0E9 /* detectSliceNum.cpp */,
 				26CA3B88171D4B9600D4C52D /* symmetryDetection.h */,
 				26CA3B87171D4B9600D4C52D /* symmetryDetection.cpp */,
+				26789E31171BD8EA007FF1EA /* main.cpp */,
+				2637AEDD175481A600F4420D /* sliceSynthesis.h */,
+				2637AEDC175481A600F4420D /* sliceSynthesis.cpp */,
+				263F6CE21753AA6000685D8E /* PatchMatch.h */,
+				263F6CE11753AA6000685D8E /* PatchMatch.cpp */,
+				262CFA361753999D0034CB3A /* offsetElement.h */,
+				262CFA371753999D0034CB3A /* offsetElement.cpp */,
 				26789E33171BD8EA007FF1EA /* repetitionExtract.1 */,
 				26172378171BDF990001E0E9 /* rtx.png */,
 			);
@@ -187,12 +227,19 @@
 		26789E5D171BD989007FF1EA /* Rosani.lib */ = {
 			isa = PBXGroup;
 			children = (
-				26789E5E171BD9A1007FF1EA /* RosaniDraw.cpp */,
-				26789E5F171BD9A1007FF1EA /* RosaniDraw.h */,
-				26789E60171BD9A1007FF1EA /* RosaniPatchTools.cpp */,
-				26789E61171BD9A1007FF1EA /* RosaniPatchTools.h */,
-				26789E62171BD9A1007FF1EA /* RosaniTools.cpp */,
-				26789E63171BD9A1007FF1EA /* RosaniTools.h */,
+				262D5F8A17378F4D0089D352 /* RosaniDataStructure.cpp */,
+				262D5F8B17378F4D0089D352 /* RosaniDataStructure.h */,
+				262D5F8C17378F4D0089D352 /* RosaniDisplay.cpp */,
+				262D5F8D17378F4D0089D352 /* RosaniDisplay.h */,
+				262D5F8E17378F4D0089D352 /* RosaniDraw.cpp */,
+				262D5F8F17378F4D0089D352 /* RosaniDraw.h */,
+				262D5F9017378F4D0089D352 /* Rosaniline.h */,
+				262D5F9117378F4D0089D352 /* RosaniPatchTools.cpp */,
+				262D5F9217378F4D0089D352 /* RosaniPatchTools.h */,
+				262D5F9317378F4D0089D352 /* RosaniTools.cpp */,
+				262D5F9417378F4D0089D352 /* RosaniTools.h */,
+				262E184F1748BA4200860B71 /* RosMat.cpp */,
+				262E18501748BA4200860B71 /* RosMat.h */,
 			);
 			name = Rosani.lib;
 			sourceTree = "<group>";
@@ -249,11 +296,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				26789E32171BD8EA007FF1EA /* main.cpp in Sources */,
-				26789E64171BD9A1007FF1EA /* RosaniDraw.cpp in Sources */,
-				26789E65171BD9A1007FF1EA /* RosaniPatchTools.cpp in Sources */,
-				26789E66171BD9A1007FF1EA /* RosaniTools.cpp in Sources */,
-				2617237B171BE02C0001E0E9 /* repetitionExtract.cpp in Sources */,
+				2617237B171BE02C0001E0E9 /* detectSliceNum.cpp in Sources */,
 				26CA3B89171D4B9600D4C52D /* symmetryDetection.cpp in Sources */,
+				262D5F9517378F4D0089D352 /* RosaniDataStructure.cpp in Sources */,
+				262D5F9617378F4D0089D352 /* RosaniDisplay.cpp in Sources */,
+				262D5F9717378F4D0089D352 /* RosaniDraw.cpp in Sources */,
+				262D5F9817378F4D0089D352 /* RosaniPatchTools.cpp in Sources */,
+				262D5F9917378F4D0089D352 /* RosaniTools.cpp in Sources */,
+				26E88D03173891DF0089FA07 /* tattingPattern.cpp in Sources */,
+				262E18511748BA4200860B71 /* RosMat.cpp in Sources */,
+				262CFA391753999D0034CB3A /* offsetElement.cpp in Sources */,
+				263F6CE31753AA6000685D8E /* PatchMatch.cpp in Sources */,
+				2637AEDE175481A600F4420D /* sliceSynthesis.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +377,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LIBRARY = "libstdc++";
+				ENABLE_OPENMP_SUPPORT = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = /opt/local/include/;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -337,7 +393,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LIBRARY = "libstdc++";
+				ENABLE_OPENMP_SUPPORT = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = /opt/local/include/;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

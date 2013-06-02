@@ -1,0 +1,1421 @@
+TrepetitionExtract
+v5
+r1
+cCheck dependencies
+cCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/main.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+cCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/detectSliceNum.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+cCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniDataStructure.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDataStructure.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+cCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/symmetryDetection.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+cCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniDisplay.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDisplay.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+cCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniDraw.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+cCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniTools.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+cCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniPatchTools.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+cCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosMat.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosMat.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+cCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/tattingPattern.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+cCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/offsetElement.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/offsetElement.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+cCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/PatchMatch.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+cCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/sliceSynthesis.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+cLd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/repetitionExtract normal x86_64
+cGenerateDSYMFile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/repetitionExtract.dSYM /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/repetitionExtract
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005173AF1D00000000000000AA
+t1366535965
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/Availability.h
+c00000000507BD78F0000000000001B50
+t1350293391
+s6992
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/assert.h
+c00000000507BD78F0000000000000F6E
+t1350293391
+s3950
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/errno.h
+c00000000507BD79000000000000003EB
+t1350293392
+s1003
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/math.h
+c00000000507BD79000000000000066C2
+t1350293392
+s26306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdint.h
+c00000000507BD79100000000000018EF
+t1350293393
+s6383
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdlib.h
+c00000000507BD7910000000000003089
+t1350293393
+s12425
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/string.h
+c00000000507BD7910000000000001A3A
+t1350293393
+s6714
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/time.h
+c00000000507BD791000000000000178E
+t1350293393
+s6030
+
+N/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/emmintrin.h
+c00000000507BD793000000000000EAA5
+t1350293395
+s60069
+i<xmmintrin.h>
+
+N/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/float.h
+c00000000507BD7930000000000001538
+t1350293395
+s5432
+
+N/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h
+c00000000507BD7930000000000000D03
+t1350293395
+s3331
+i"syslimits.h"
+
+N/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/mm_malloc.h
+c00000000507BD793000000000000093D
+t1350293395
+s2365
+i<stdlib.h>
+i<errno.h>
+
+N/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/mmintrin.h
+c00000000507BD79300000000000092B1
+t1350293395
+s37553
+
+N/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/syslimits.h
+c00000000507BD7930000000000000155
+t1350293395
+s341
+
+N/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/xmmintrin.h
+c00000000507BD793000000000000BECA
+t1350293395
+s48842
+i<mmintrin.h>
+i<mm_malloc.h>
+i<emmintrin.h>
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/PatchMatch/PatchMatch/PatchMatch.h
+c0000000051A368BC0000000000000CCA
+t1369663676
+s3274
+i<iostream>
+i"Rosaniline.h"
+i"offsetElement.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/PatchMatch/PatchMatch/offsetElement.h
+c0000000051971A1A0000000000000444
+t1368857114
+s1092
+i<iostream>
+i<opencv2/opencv.hpp>
+i"Rosaniline.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosMat.cpp
+c0000000051972CEE0000000000000EAC
+t1368861934
+s3756
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDataStructure.cpp
+c00000000518CA2D600000000000000B7
+t1368171222
+s183
+i"RosaniDataStructure.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDisplay.cpp
+c00000000518CA1BD00000000000001EC
+t1368170941
+s492
+i"RosaniDisplay.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.cpp
+c00000000519B13630000000000001BA6
+t1369117539
+s7078
+i<iostream>
+i"RosaniDraw.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.cpp
+c0000000051974FED00000000000036D9
+t1368870893
+s14041
+i"RosaniPatchTools.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp
+c0000000051A8402C0000000000002233
+t1369980972
+s8755
+i<iostream>
+i"RosaniTools.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h
+c00000000518F89DF000000000000015F
+t1368361439
+s351
+i"RosaniDraw.h"
+i"RosaniPatchTools.h"
+i"RosaniDisplay.h"
+i"RosaniDataStructure.h"
+i"RosaniTools.h"
+i"RosMat.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/PatchMatch.o
+t1369725818
+s167988
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosMat.o
+t1368949638
+s184
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniDataStructure.o
+t1368864981
+s24308
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniDisplay.o
+t1368864981
+s59968
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniDraw.o
+t1369569640
+s237880
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniPatchTools.o
+t1369725794
+s117660
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniTools.o
+t1369980975
+s192712
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/anchorDetection.o
+t1369661694
+s193228
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/circles.o
+t1369569639
+s24188
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/detectSliceNum.o
+t1369725794
+s90028
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/element.o
+t1369661694
+s145608
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/main.o
+t1369983529
+s63844
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/offsetElement.o
+t1369725811
+s24228
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/repetendExtract.o
+t1369661693
+s376884
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/repetitionExtract.LinkFileList
+c0000000051A44C00000000000000089A
+t1369721856
+s2202
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/sliceExtract.o
+t1369641613
+s92232
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/sliceSynthesis.o
+t1370003728
+s95100
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/symmetryDetection.o
+t1369725865
+s106956
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/tattingPattern.o
+t1369726449
+s186324
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/repetitionExtract
+t1370003730
+s162324
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/repetitionExtract.dSYM
+t1370003730
+s102
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.cpp
+c0000000051A371FC0000000000003981
+t1369666044
+s14721
+i"PatchMatch.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cpp
+c0000000051A377040000000000002D0B
+t1369667332
+s11531
+i"PatchMatch.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.h
+c0000000051A373A50000000000000CFE
+t1369666469
+s3326
+i<iostream>
+i"Rosaniline.h"
+i"offsetElement.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/anchorDetection.cpp
+c00000000519A463800000000000023A1
+t1369065016
+s9121
+i"anchorDetection.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/anchorDetection.h
+c00000000519A35A8000000000000075A
+t1369060776
+s1882
+i<iostream>
+i"Rosaniline.h"
+i"tattingPattern.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/circles.cpp
+c000000005187AF6D00000000000000A5
+t1367846765
+s165
+i"circles.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/circles.h
+c000000005187AFCC000000000000023D
+t1367846860
+s573
+i<iostream>
+i"Rosaniline.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.cpp
+c0000000051A318A40000000000000E11
+t1369643172
+s3601
+i"detectSliceNum.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.h
+c0000000051A4504A0000000000000346
+t1369722954
+s838
+i<iostream>
+i"Rosaniline.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp
+c0000000051A30EC500000000000006D5
+t1369640645
+s1749
+i"element.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.h
+c00000000518BBC8C0000000000000322
+t1368112268
+s802
+i<iostream>
+i"Rosaniline.h"
+i"tattingPattern.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cpp
+c0000000051A45E1F00000000000006E2
+t1369726495
+s1762
+i<iostream>
+i"Rosaniline.h"
+i"tattingPattern.h"
+i"sliceSynthesis.h"
+i"PatchMatch.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/offsetElement.cpp
+c00000000518F9F1B00000000000000AB
+t1368366875
+s171
+i"offsetElement.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/offsetElement.h
+c0000000051971A1A0000000000000444
+t1368857114
+s1092
+i<iostream>
+i<opencv2/opencv.hpp>
+i"Rosaniline.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp
+c0000000051A30FDF000000000000306A
+t1369640927
+s12394
+i"repetendExtract.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.h
+c000000005199BE5B000000000000043C
+t1369030235
+s1084
+i<iostream>
+i"Rosaniline.h"
+i"tattingPattern.h"
+i"element.h"
+i<opencv2/legacy/legacy.hpp>
+i<opencv2/objdetect/objdetect.hpp>
+i<opencv2/nonfree/nonfree.hpp>
+i<opencv2/nonfree/features2d.hpp>
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.cpp
+c0000000051A3128B0000000000000F25
+t1369641611
+s3877
+i"sliceExtract.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.h
+c0000000051A3123E0000000000000420
+t1369641534
+s1056
+i<iostream>
+i"Rosaniline.h"
+i"symmetryDetection.h"
+i"tattingPattern.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp
+c0000000051A8992D0000000000000C81
+t1370003757
+s3201
+i"sliceSynthesis.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.h
+c0000000051A847200000000000000323
+t1369982752
+s803
+i<iostream>
+i"Rosaniline.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.cpp
+c0000000051A45B7E0000000000000E33
+t1369725822
+s3635
+i"symmetryDetection.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.h
+c0000000051A45B3D000000000000064E
+t1369725757
+s1614
+i<iostream>
+i<cmath>
+i"Rosaniline.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.cpp
+c0000000051A45DEF00000000000017E9
+t1369726447
+s6121
+i"tattingPattern.h"
+
+N/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.h
+c0000000051A45B3800000000000003BC
+t1369725752
+s956
+i<iostream>
+i<sstream>
+i"Rosaniline.h"
+i"detectSliceNum.h"
+i"symmetryDetection.h"
+
+N/Users/xup6qup3/Dropbox/code/Rosani.Lib/RosMat.cpp
+c0000000051972CEE0000000000000EAC
+t1368861934
+s3756
+
+N/Users/xup6qup3/Dropbox/code/Rosani.Lib/RosMat.h
+c0000000051972CAB0000000000000B0E
+t1368861867
+s2830
+i<iostream>
+i<exception>
+i<opencv2/opencv.hpp>
+i"RosMat.cpp"
+
+N/Users/xup6qup3/Dropbox/code/Rosani.Lib/RosaniDataStructure.h
+c00000000518F88E70000000000001A6E
+t1368361191
+s6766
+i<iostream>
+i<opencv2/opencv.hpp>
+
+N/Users/xup6qup3/Dropbox/code/Rosani.Lib/RosaniDisplay.h
+c00000000518CA2A100000000000001DB
+t1368171169
+s475
+i<iostream>
+i<opencv2/opencv.hpp>
+
+N/Users/xup6qup3/Dropbox/code/Rosani.Lib/RosaniDraw.h
+c00000000519B1346000000000000054B
+t1369117510
+s1355
+i<opencv2/opencv.hpp>
+i<vector>
+
+N/Users/xup6qup3/Dropbox/code/Rosani.Lib/RosaniPatchTools.h
+c00000000519067FC00000000000006B4
+t1368418300
+s1716
+i<opencv2/opencv.hpp>
+i"RosaniTools.h"
+
+N/Users/xup6qup3/Dropbox/code/Rosani.Lib/RosaniTools.h
+c0000000051A45B4300000000000008A5
+t1369725763
+s2213
+i<opencv2/opencv.hpp>
+i<vector>
+i<sys/time.h>
+
+N/opt/local/include/i386/_structs.h
+c00000000515A0EA40000000000000FB5
+t1364856484
+s4021
+i<sys/appleapiopts.h>
+i<mach/i386/_structs.h>
+
+N/opt/local/include/i386/_types.h
+c00000000515A0EA40000000000001197
+t1364856484
+s4503
+
+N/opt/local/include/mach/i386/_structs.h
+c00000000515A0EA400000000000062D1
+t1364856484
+s25297
+
+N/opt/local/include/machine/_structs.h
+c00000000515A0E9C00000000000005AA
+t1364856476
+s1450
+i"i386/_structs.h"
+
+N/opt/local/include/machine/_types.h
+c00000000515A0E9C000000000000060B
+t1364856476
+s1547
+i"i386/_types.h"
+
+N/opt/local/include/opencv2/calib3d/calib3d.hpp
+c00000000515E92A400000000000092FD
+t1365152420
+s37629
+i"opencv2/core/core.hpp"
+i"opencv2/features2d/features2d.hpp"
+
+N/opt/local/include/opencv2/contrib/contrib.hpp
+c00000000515E92A40000000000009648
+t1365152420
+s38472
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/features2d/features2d.hpp"
+i"opencv2/objdetect/objdetect.hpp"
+i"opencv2/contrib/retina.hpp"
+i"opencv2/contrib/openfabmap.hpp"
+
+N/opt/local/include/opencv2/contrib/openfabmap.hpp
+c00000000515E92A40000000000003207
+t1365152420
+s12807
+i"opencv2/core/core.hpp"
+i"opencv2/features2d/features2d.hpp"
+i<vector>
+i<list>
+i<map>
+i<set>
+i<valarray>
+
+N/opt/local/include/opencv2/contrib/retina.hpp
+c00000000515E92A40000000000005D97
+t1365152420
+s23959
+i"opencv2/core/core.hpp"
+i<valarray>
+
+N/opt/local/include/opencv2/core/core.hpp
+c00000000515E92A4000000000002D379
+t1365152420
+s185209
+i"opencv2/core/types_c.h"
+i"opencv2/core/version.hpp"
+i<limits.h>
+i<algorithm>
+i<cmath>
+i<cstddef>
+i<complex>
+i<map>
+i<new>
+i<string>
+i<vector>
+i<sstream>
+i"opencv2/core/operations.hpp"
+i"opencv2/core/mat.hpp"
+
+N/opt/local/include/opencv2/core/core_c.h
+c00000000515E92A40000000000013298
+t1365152420
+s78488
+i"opencv2/core/types_c.h"
+
+N/opt/local/include/opencv2/core/mat.hpp
+c00000000515E92A40000000000013A5A
+t1365152420
+s80474
+i<limits.h>
+i<string.h>
+
+N/opt/local/include/opencv2/core/operations.hpp
+c00000000515E92A4000000000001F85F
+t1365152420
+s129119
+i<string.h>
+i<limits.h>
+i<ext/atomicity.h>
+i<bits/atomicity.h>
+i<limits>
+
+N/opt/local/include/opencv2/core/types_c.h
+c00000000515E92A4000000000000E041
+t1365152420
+s57409
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<stdint.h>
+i<intrin.h>
+i<emmintrin.h>
+i<fastmath.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+i"tegra_round.hpp"
+i"emmintrin.h"
+
+N/opt/local/include/opencv2/core/version.hpp
+c00000000515E92A40000000000000B70
+t1365152420
+s2928
+
+N/opt/local/include/opencv2/features2d/features2d.hpp
+c00000000515E92A4000000000000F902
+t1365152420
+s63746
+i"opencv2/core/core.hpp"
+i"opencv2/flann/miniflann.hpp"
+i<limits>
+
+N/opt/local/include/opencv2/flann/config.h
+c00000000515E92A400000000000006FD
+t1365152420
+s1789
+
+N/opt/local/include/opencv2/flann/defines.h
+c00000000515E92A4000000000000124B
+t1365152420
+s4683
+i"config.h"
+
+N/opt/local/include/opencv2/flann/miniflann.hpp
+c00000000515E92A40000000000001785
+t1365152420
+s6021
+i"opencv2/core/core.hpp"
+i"opencv2/flann/defines.h"
+
+N/opt/local/include/opencv2/highgui/highgui.hpp
+c00000000515E92A400000000000023CA
+t1365152420
+s9162
+i"opencv2/core/core.hpp"
+i"opencv2/highgui/highgui_c.h"
+
+N/opt/local/include/opencv2/highgui/highgui_c.h
+c00000000515E92A400000000000065EE
+t1365152420
+s26094
+i"opencv2/core/core_c.h"
+
+N/opt/local/include/opencv2/imgproc/imgproc.hpp
+c00000000515E92A4000000000000DA60
+t1365152420
+s55904
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/types_c.h"
+
+N/opt/local/include/opencv2/imgproc/imgproc_c.h
+c00000000515E92A4000000000000767F
+t1365152420
+s30335
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+
+N/opt/local/include/opencv2/imgproc/types_c.h
+c00000000515E92A40000000000004038
+t1365152420
+s16440
+i"opencv2/core/core_c.h"
+
+N/opt/local/include/opencv2/legacy/legacy.hpp
+c00000000515E92A4000000000002160D
+t1365152420
+s136717
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+i"opencv2/features2d/features2d.hpp"
+i"opencv2/calib3d/calib3d.hpp"
+i"opencv2/ml/ml.hpp"
+i<iosfwd>
+i<limits>
+
+N/opt/local/include/opencv2/ml/ml.hpp
+c00000000515E92A40000000000013252
+t1365152420
+s78418
+i"opencv2/core/core.hpp"
+i<limits.h>
+i<map>
+i<string>
+i<iostream>
+
+N/opt/local/include/opencv2/nonfree/features2d.hpp
+c00000000515E92A400000000000016B7
+t1365152420
+s5815
+i"opencv2/features2d/features2d.hpp"
+
+N/opt/local/include/opencv2/nonfree/nonfree.hpp
+c00000000515E92A40000000000000933
+t1365152420
+s2355
+i"opencv2/nonfree/features2d.hpp"
+
+N/opt/local/include/opencv2/objdetect/objdetect.hpp
+c00000000515E92A400000000000091B7
+t1365152420
+s37303
+i"opencv2/core/core.hpp"
+i<map>
+i<deque>
+
+N/opt/local/include/opencv2/opencv.hpp
+c00000000515E92A40000000000000ABF
+t1365152420
+s2751
+i"opencv2/core/core_c.h"
+i"opencv2/core/core.hpp"
+i"opencv2/flann/miniflann.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/photo/photo.hpp"
+i"opencv2/video/video.hpp"
+i"opencv2/features2d/features2d.hpp"
+i"opencv2/objdetect/objdetect.hpp"
+i"opencv2/calib3d/calib3d.hpp"
+i"opencv2/ml/ml.hpp"
+i"opencv2/highgui/highgui_c.h"
+i"opencv2/highgui/highgui.hpp"
+i"opencv2/contrib/contrib.hpp"
+
+N/opt/local/include/opencv2/photo/photo.hpp
+c00000000515E92A40000000000000F9D
+t1365152420
+s3997
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/photo/photo_c.h"
+
+N/opt/local/include/opencv2/photo/photo_c.h
+c00000000515E92A40000000000000A57
+t1365152420
+s2647
+i"opencv2/core/core_c.h"
+
+N/opt/local/include/opencv2/video/background_segm.hpp
+c00000000515E92A40000000000002A72
+t1365152420
+s10866
+i"opencv2/core/core.hpp"
+i<list>
+
+N/opt/local/include/opencv2/video/tracking.hpp
+c00000000515E92A400000000000047FF
+t1365152420
+s18431
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/imgproc.hpp"
+
+N/opt/local/include/opencv2/video/video.hpp
+c00000000515E92A40000000000000970
+t1365152420
+s2416
+i"opencv2/video/tracking.hpp"
+i"opencv2/video/background_segm.hpp"
+
+N/opt/local/include/sys/_posix_availability.h
+c00000000515A0E9F0000000000000B59
+t1364856479
+s2905
+
+N/opt/local/include/sys/_select.h
+c00000000515A0EA000000000000008F6
+t1364856480
+s2294
+
+N/opt/local/include/sys/_structs.h
+c00000000515A0EA00000000000001EE6
+t1364856480
+s7910
+i<sys/cdefs.h>
+i<sys/_types.h>
+i<machine/_structs.h>
+
+N/opt/local/include/sys/_symbol_aliasing.h
+c00000000515A0E9F000000000000193C
+t1364856479
+s6460
+
+N/opt/local/include/sys/_types.h
+c00000000515A0EA00000000000001845
+t1364856480
+s6213
+i<sys/cdefs.h>
+i<machine/_types.h>
+
+N/opt/local/include/sys/appleapiopts.h
+c00000000515A0E9F0000000000000816
+t1364856479
+s2070
+
+N/opt/local/include/sys/cdefs.h
+c00000000515A0E9F00000000000053BD
+t1364856479
+s21437
+i<sys/_symbol_aliasing.h>
+i<sys/_posix_availability.h>
+
+N/opt/local/include/sys/time.h
+c00000000515A0EA00000000000001E64
+t1364856480
+s7780
+i<sys/cdefs.h>
+i<sys/_types.h>
+i<Availability.h>
+i<sys/_structs.h>
+i<time.h>
+i<sys/_select.h>
+
+N/opt/local/lib/libopencv_calib3d.2.4.5.dylib
+c000000005167B7E600000000000A5E68
+t1365751782
+s679528
+
+N/opt/local/lib/libopencv_contrib.2.4.5.dylib
+c000000005167B7F700000000000F64F0
+t1365751799
+s1008880
+
+N/opt/local/lib/libopencv_core.2.4.5.dylib
+c000000005167B7B40000000000244D24
+t1365751732
+s2379044
+
+N/opt/local/lib/libopencv_features2d.2.4.5.dylib
+c000000005167B7DC00000000000BBDD0
+t1365751772
+s769488
+
+N/opt/local/lib/libopencv_flann.2.4.5.dylib
+c000000005167B7B9000000000007F2E4
+t1365751737
+s520932
+
+N/opt/local/lib/libopencv_gpu.2.4.5.dylib
+c000000005167B812000000000002B308
+t1365751826
+s176904
+
+N/opt/local/lib/libopencv_highgui.2.4.5.dylib
+c000000005167B7D10000000000053AAC
+t1365751761
+s342700
+
+N/opt/local/lib/libopencv_imgproc.2.4.5.dylib
+c000000005167B7C7000000000021DC9C
+t1365751751
+s2219164
+
+N/opt/local/lib/libopencv_legacy.2.4.5.dylib
+c000000005167B803000000000011573C
+t1365751811
+s1136444
+
+N/opt/local/lib/libopencv_ml.2.4.5.dylib
+c000000005167B7BE000000000007B8E0
+t1365751742
+s506080
+
+N/opt/local/lib/libopencv_nonfree.2.4.5.dylib
+c000000005167B81700000000000207D8
+t1365751831
+s133080
+
+N/opt/local/lib/libopencv_objdetect.2.4.5.dylib
+c000000005167B7D900000000000884DC
+t1365751769
+s558300
+
+N/opt/local/lib/libopencv_photo.2.4.5.dylib
+c000000005167B7C900000000000204CC
+t1365751753
+s132300
+
+N/opt/local/lib/libopencv_stitching.2.4.5.dylib
+c000000005167B81C000000000008C9C4
+t1365751836
+s575940
+
+N/opt/local/lib/libopencv_superres.2.4.5.dylib
+c000000005167B816000000000002E784
+t1365751830
+s190340
+
+N/opt/local/lib/libopencv_ts.2.4.5.dylib
+c000000005167B7E500000000000C2DE4
+t1365751781
+s798180
+
+N/opt/local/lib/libopencv_video.2.4.5.dylib
+c000000005167B7CD00000000000514C0
+t1365751757
+s332992
+
+N/opt/local/lib/libopencv_videostab.2.4.5.dylib
+c000000005167B8180000000000039530
+t1365751832
+s234800
+
+CBuild AST from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosMat.cpp
+r0
+
+CBuild AST from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDataStructure.cpp
+r0
+
+CBuild AST from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDisplay.cpp
+r0
+
+CBuild AST from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.cpp
+r0
+
+CBuild AST from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.cpp
+r0
+
+CBuild AST from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp
+r0
+
+CBuild AST from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.cpp
+r0
+
+CBuild AST from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cpp
+r0
+
+CBuild AST from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/anchorDetection.cpp
+r0
+
+CBuild AST from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/circles.cpp
+r0
+
+CBuild AST from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.cpp
+r0
+
+CBuild AST from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp
+r0
+
+CBuild AST from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cpp
+r0
+
+CBuild AST from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/offsetElement.cpp
+r0
+
+CBuild AST from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp
+r0
+
+CBuild AST from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.cpp
+r0
+
+CBuild AST from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp
+r0
+
+CBuild AST from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.cpp
+r0
+
+CBuild AST from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd097f6add058b741^d7faf6add058b741^---0#1#0#--18"Check dependencies36"C2195310-A185-482C-92A0-FE268F2BA12C-
+
+CCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/PatchMatch.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s391358844.827307
+e391358846.641116
+r1
+xCompileC
+xBuild/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/PatchMatch.o
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /opt/local/include/opencv2/core/core_c.h:47,
+o                 from /opt/local/include/opencv2/opencv.hpp:46,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.h:13,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.cpp:9:
+o/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':
+o/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.cpp: In member function 'void PatchMatch::randomSearch(const cv::Mat&, const cv::Mat&, offsetElement&, cv::Point)':
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.cpp:337: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.cpp:337: warning: implicit conversion shortens 64-bit value into a 32-bit value
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.cpp35b8d57ca953b741^6327a47ea953b741^-1449"In file included from /opt/local/include/opencv2/core/core_c.h:47,                 from /opt/local/include/opencv2/opencv.hpp:46,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.h:13,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.cpp:9:/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.cpp: In member function 'void PatchMatch::randomSearch(const cv::Mat&, const cv::Mat&, offsetElement&, cv::Point)':/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.cpp:337: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.cpp:337: warning: implicit conversion shortens 64-bit value into a 32-bit value3(21%IDEActivityLogMessage2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391358845#716#118#7(36%IDEActivityLogHeaderInclusionMessage3@138"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.cpp-391358845#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@132"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.cpp0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---3@136"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.h-391358845#18446744073709551615#0#-0#-4@130"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.h0000000000000000^12#18446744073709551615#12#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h-391358845#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h-391358845#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@59"In file included from /opt/local/include/opencv2/opencv.hpp-391358845#18446744073709551615#0#-0#-4@53"file://localhost/opt/local/include/opencv2/opencv.hpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#---3@62"In file included from /opt/local/include/opencv2/core/core_c.h-391358845#18446744073709551615#0#-0#-4@56"file://localhost/opt/local/include/opencv2/core/core_c.h0000000000000000^46#18446744073709551615#46#18446744073709551615#18446744073709551615#0#---2@106"Implicit conversion shortens 64-bit value into a 32-bit value in /opt/local/include/opencv2/core/types_c.h-391358845#18446744073709551615#0#-0#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#---1#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391358845#1063#193#-1#-4@90"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/PatchMatch/PatchMatch/PatchMatch.cpp0000000000000000^336#18446744073709551615#336#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391358845#1256#193#-1#-4@90"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/PatchMatch/PatchMatch/PatchMatch.cpp0000000000000000^336#18446744073709551615#336#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--0#0#0#-19%DVTDocumentLocation5@132"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.cpp0000000000000000^2250"CompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/PatchMatch.o repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -fopenmp -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-generated-files.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-own-target-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-all-target-headers.hmap -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-project-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/include -I/opt/local/include -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources/x86_64 -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -c /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/../../PatchMatch/PatchMatch/PatchMatch.cpp -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/PatchMatch.o36"AA250304-6D35-464C-A13E-258F46329B8D-
+
+CCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/PatchMatch.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s391418616.648926
+e391418618.941162
+r1
+xCompileC
+xBuild/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/PatchMatch.o
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /opt/local/include/opencv2/core/core_c.h:47,
+o                 from /opt/local/include/opencv2/opencv.hpp:46,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.h:13,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cpp:9:
+o/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':
+o/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cpp: In member function 'void PatchMatch::randomSearch(const cv::Mat&, const cv::Mat&, offsetElement&, cv::Point)':
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cpp:202: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cpp:202: warning: implicit conversion shortens 64-bit value into a 32-bit value
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cppc840a6f89254b741^67f3f0fa9254b741^-1309"In file included from /opt/local/include/opencv2/core/core_c.h:47,                 from /opt/local/include/opencv2/opencv.hpp:46,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.h:13,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cpp:9:/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cpp: In member function 'void PatchMatch::randomSearch(const cv::Mat&, const cv::Mat&, offsetElement&, cv::Point)':/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cpp:202: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cpp:202: warning: implicit conversion shortens 64-bit value into a 32-bit value3(21%IDEActivityLogMessage2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391418617#660#118#7(36%IDEActivityLogHeaderInclusionMessage3@110"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cpp-391418617#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@104"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cpp0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---3@108"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.h-391418617#18446744073709551615#0#-0#-4@102"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.h0000000000000000^12#18446744073709551615#12#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h-391418617#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h-391418617#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@59"In file included from /opt/local/include/opencv2/opencv.hpp-391418617#18446744073709551615#0#-0#-4@53"file://localhost/opt/local/include/opencv2/opencv.hpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#---3@62"In file included from /opt/local/include/opencv2/core/core_c.h-391418617#18446744073709551615#0#-0#-4@56"file://localhost/opt/local/include/opencv2/core/core_c.h0000000000000000^46#18446744073709551615#46#18446744073709551615#18446744073709551615#0#---2@106"Implicit conversion shortens 64-bit value into a 32-bit value in /opt/local/include/opencv2/core/types_c.h-391418617#18446744073709551615#0#-0#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#---1#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391418618#979#165#-1#-4@104"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cpp0000000000000000^201#18446744073709551615#201#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391418618#1144#165#-1#-4@104"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cpp0000000000000000^201#18446744073709551615#201#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--0#0#0#-19%DVTDocumentLocation5@104"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cpp0000000000000000^2194"CompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/PatchMatch.o repetitionExtract/PatchMatch.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -fopenmp -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-generated-files.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-own-target-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-all-target-headers.hmap -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-project-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/include -I/opt/local/include -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources/x86_64 -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -c /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/PatchMatch.cpp -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/PatchMatch.o36"AC7C74D6-FCEA-4B65-8F59-2CFEA78EC946-
+
+CCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosMat.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosMat.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s390642438.267552
+e390642438.307885
+r1
+xCompileC
+xBuild/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosMat.o
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosMat.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosMat.cpp2ca04406bb48b741^c4d04e06bb48b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosMat.cpp0000000000000000^2176"CompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosMat.o ../../Rosani.Lib/RosMat.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -fopenmp -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-generated-files.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-own-target-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-all-target-headers.hmap -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-project-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/include -I/opt/local/include -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources/x86_64 -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -c /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosMat.cpp -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosMat.o36"2DAA4ABD-F3E7-4E25-B820-3C1A4E744072-
+
+CCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniDataStructure.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDataStructure.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s390557779.329089
+e390557781.035723
+r1
+xCompileC
+xBuild/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniDataStructure.o
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDataStructure.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /opt/local/include/opencv2/core/core_c.h:47,
+o                 from /opt/local/include/opencv2/opencv.hpp:46,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDataStructure.h:13,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDataStructure.cpp:9:
+o/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':
+o/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDataStructure.cpp9b0057537047b741^e62309557047b741^-570"In file included from /opt/local/include/opencv2/core/core_c.h:47,                 from /opt/local/include/opencv2/opencv.hpp:46,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDataStructure.h:13,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDataStructure.cpp:9:/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value1(21%IDEActivityLogMessage2@61"Implicit conversion shortens 64-bit value into a 32-bit value-390557780#452#118#5(36%IDEActivityLogHeaderInclusionMessage3@118"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDataStructure.cpp-390557780#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@112"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDataStructure.cpp0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---3@116"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDataStructure.h-390557780#18446744073709551615#0#-0#-4@110"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDataStructure.h0000000000000000^12#18446744073709551615#12#18446744073709551615#18446744073709551615#0#---3@59"In file included from /opt/local/include/opencv2/opencv.hpp-390557780#18446744073709551615#0#-0#-4@53"file://localhost/opt/local/include/opencv2/opencv.hpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#---3@62"In file included from /opt/local/include/opencv2/core/core_c.h-390557780#18446744073709551615#0#-0#-4@56"file://localhost/opt/local/include/opencv2/core/core_c.h0000000000000000^46#18446744073709551615#46#18446744073709551615#18446744073709551615#0#---2@106"Implicit conversion shortens 64-bit value into a 32-bit value in /opt/local/include/opencv2/core/types_c.h-390557780#18446744073709551615#0#-0#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#---1#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--0#0#0#-19%DVTDocumentLocation5@112"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDataStructure.cpp0000000000000000^2228"CompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniDataStructure.o ../../Rosani.Lib/RosaniDataStructure.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -fopenmp -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-generated-files.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-own-target-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-all-target-headers.hmap -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-project-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/include -I/opt/local/include -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources/x86_64 -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -c /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDataStructure.cpp -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniDataStructure.o36"FADBA8FF-E62A-45BE-9B68-FECCC6581DBE-
+
+CCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniDisplay.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDisplay.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s390557779.434817
+e390557781.092798
+r1
+xCompileC
+xBuild/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniDisplay.o
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDisplay.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /opt/local/include/opencv2/core/core_c.h:47,
+o                 from /opt/local/include/opencv2/opencv.hpp:46,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDisplay.h:13,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDisplay.cpp:9:
+o/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':
+o/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDisplay.cppf46f6f537047b741^a4c317557047b741^-558"In file included from /opt/local/include/opencv2/core/core_c.h:47,                 from /opt/local/include/opencv2/opencv.hpp:46,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDisplay.h:13,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDisplay.cpp:9:/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value1(21%IDEActivityLogMessage2@61"Implicit conversion shortens 64-bit value into a 32-bit value-390557780#440#118#5(36%IDEActivityLogHeaderInclusionMessage3@112"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDisplay.cpp-390557780#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@106"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDisplay.cpp0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---3@110"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDisplay.h-390557780#18446744073709551615#0#-0#-4@104"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDisplay.h0000000000000000^12#18446744073709551615#12#18446744073709551615#18446744073709551615#0#---3@59"In file included from /opt/local/include/opencv2/opencv.hpp-390557780#18446744073709551615#0#-0#-4@53"file://localhost/opt/local/include/opencv2/opencv.hpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#---3@62"In file included from /opt/local/include/opencv2/core/core_c.h-390557780#18446744073709551615#0#-0#-4@56"file://localhost/opt/local/include/opencv2/core/core_c.h0000000000000000^46#18446744073709551615#46#18446744073709551615#18446744073709551615#0#---2@106"Implicit conversion shortens 64-bit value into a 32-bit value in /opt/local/include/opencv2/core/types_c.h-390557780#18446744073709551615#0#-0#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#---1#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--0#0#0#-19%DVTDocumentLocation5@106"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDisplay.cpp0000000000000000^2204"CompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniDisplay.o ../../Rosani.Lib/RosaniDisplay.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -fopenmp -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-generated-files.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-own-target-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-all-target-headers.hmap -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-project-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/include -I/opt/local/include -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources/x86_64 -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -c /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDisplay.cpp -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniDisplay.o36"8612BD06-1352-4E5C-8D6A-5DB6E5654D64-
+
+CCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniDraw.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s391262437.549881
+e391262440.490295
+r1
+xCompileC
+xBuild/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniDraw.o
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /opt/local/include/opencv2/core/core_c.h:47,
+o                 from /opt/local/include/opencv2/opencv.hpp:46,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.cpp:10:
+o/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':
+o/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.cpp30f48ce53052b741^0c9389e83052b741^-553"In file included from /opt/local/include/opencv2/core/core_c.h:47,                 from /opt/local/include/opencv2/opencv.hpp:46,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.cpp:10:/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value1(21%IDEActivityLogMessage2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391262438#435#118#5(36%IDEActivityLogHeaderInclusionMessage3@109"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.cpp-391262438#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@103"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.cpp0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h-391262438#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@59"In file included from /opt/local/include/opencv2/opencv.hpp-391262438#18446744073709551615#0#-0#-4@53"file://localhost/opt/local/include/opencv2/opencv.hpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#---3@62"In file included from /opt/local/include/opencv2/core/core_c.h-391262438#18446744073709551615#0#-0#-4@56"file://localhost/opt/local/include/opencv2/core/core_c.h0000000000000000^46#18446744073709551615#46#18446744073709551615#18446744073709551615#0#---2@106"Implicit conversion shortens 64-bit value into a 32-bit value in /opt/local/include/opencv2/core/types_c.h-391262438#18446744073709551615#0#-0#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#---1#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--0#0#0#-19%DVTDocumentLocation5@103"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.cpp0000000000000000^2192"CompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniDraw.o ../../Rosani.Lib/RosaniDraw.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -fopenmp -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-generated-files.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-own-target-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-all-target-headers.hmap -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-project-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/include -I/opt/local/include -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources/x86_64 -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -c /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.cpp -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniDraw.o36"137BF260-ECBA-47AE-9CA3-1DF632C01B4B-
+
+CCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniPatchTools.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s391418591.885460
+e391418594.676999
+r1
+xCompileC
+xBuild/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniPatchTools.o
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /opt/local/include/opencv2/core/core_c.h:47,
+o                 from /opt/local/include/opencv2/opencv.hpp:46,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.cpp:9:
+o/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':
+o/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.cpp: In member function 'void patchTools::show(const cv::Mat&, const cv::Point&, double, const std::string&, int)':
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.cpp:21: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.cpp:21: warning: implicit conversion shortens 64-bit value into a 32-bit value
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.cpp43cbe2df9254b741^c05aade29254b741^-1108"In file included from /opt/local/include/opencv2/core/core_c.h:47,                 from /opt/local/include/opencv2/opencv.hpp:46,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.cpp:9:/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.cpp: In member function 'void patchTools::show(const cv::Mat&, const cv::Point&, double, const std::string&, int)':/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.cpp:21: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.cpp:21: warning: implicit conversion shortens 64-bit value into a 32-bit value3(21%IDEActivityLogMessage2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391418592#446#118#5(36%IDEActivityLogHeaderInclusionMessage3@115"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.cpp-391418592#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@109"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.cpp0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---3@113"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.h-391418592#18446744073709551615#0#-0#-4@107"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@59"In file included from /opt/local/include/opencv2/opencv.hpp-391418592#18446744073709551615#0#-0#-4@53"file://localhost/opt/local/include/opencv2/opencv.hpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#---3@62"In file included from /opt/local/include/opencv2/core/core_c.h-391418592#18446744073709551615#0#-0#-4@56"file://localhost/opt/local/include/opencv2/core/core_c.h0000000000000000^46#18446744073709551615#46#18446744073709551615#18446744073709551615#0#---2@106"Implicit conversion shortens 64-bit value into a 32-bit value in /opt/local/include/opencv2/core/types_c.h-391418592#18446744073709551615#0#-0#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#---1#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391418593#770#169#-1#-4@76"file://localhost/Users/xup6qup3/Dropbox/code/Rosani.Lib/RosaniPatchTools.cpp0000000000000000^20#18446744073709551615#20#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391418593#939#169#-1#-4@76"file://localhost/Users/xup6qup3/Dropbox/code/Rosani.Lib/RosaniPatchTools.cpp0000000000000000^20#18446744073709551615#20#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--0#0#0#-19%DVTDocumentLocation5@109"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.cpp0000000000000000^2216"CompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniPatchTools.o ../../Rosani.Lib/RosaniPatchTools.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -fopenmp -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-generated-files.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-own-target-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-all-target-headers.hmap -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-project-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/include -I/opt/local/include -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources/x86_64 -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -c /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniPatchTools.cpp -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniPatchTools.o36"910C52FC-AD22-4BFB-B096-C335DDDAA673-
+
+CCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniTools.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s391673773.670457
+e391673775.269498
+r1
+xCompileC
+xBuild/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniTools.o
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /opt/local/include/opencv2/core/core_c.h:47,
+o                 from /opt/local/include/opencv2/opencv.hpp:46,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:10:
+o/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':
+o/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp: In function 'void infLine(cv::Mat&, const cv::Point&, double)':
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:111: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:112: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp: In function 'void resizeMat(cv::Mat&, double)':
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:174: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:174: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp: In function 'std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > getCirclePoints(const cv::Point&, int)':
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:384: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:388: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:395: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:402: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:409: warning: implicit conversion shortens 64-bit value into a 32-bit value
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp3925acad7758b741^cefe44af7758b741^-2540"In file included from /opt/local/include/opencv2/core/core_c.h:47,                 from /opt/local/include/opencv2/opencv.hpp:46,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:10:/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp: In function 'void infLine(cv::Mat&, const cv::Point&, double)':/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:111: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:112: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp: In function 'void resizeMat(cv::Mat&, double)':/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:174: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:174: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp: In function 'std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > getCirclePoints(const cv::Point&, int)':/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:384: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:388: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:395: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:402: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp:409: warning: implicit conversion shortens 64-bit value into a 32-bit value10(21%IDEActivityLogMessage2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391673774#437#118#5(36%IDEActivityLogHeaderInclusionMessage3@110"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp-391673774#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@104"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#---3@108"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.h-391673774#18446744073709551615#0#-0#-4@102"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@59"In file included from /opt/local/include/opencv2/opencv.hpp-391673774#18446744073709551615#0#-0#-4@53"file://localhost/opt/local/include/opencv2/opencv.hpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#---3@62"In file included from /opt/local/include/opencv2/core/core_c.h-391673774#18446744073709551615#0#-0#-4@56"file://localhost/opt/local/include/opencv2/core/core_c.h0000000000000000^46#18446744073709551615#46#18446744073709551615#18446744073709551615#0#---2@106"Implicit conversion shortens 64-bit value into a 32-bit value in /opt/local/include/opencv2/core/types_c.h-391673774#18446744073709551615#0#-0#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#---1#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391673774#709#165#-1#-4@71"file://localhost/Users/xup6qup3/Dropbox/code/Rosani.Lib/RosaniTools.cpp0000000000000000^110#18446744073709551615#110#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391673774#874#165#-1#-4@71"file://localhost/Users/xup6qup3/Dropbox/code/Rosani.Lib/RosaniTools.cpp0000000000000000^111#18446744073709551615#111#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391673774#1177#165#-1#-4@71"file://localhost/Users/xup6qup3/Dropbox/code/Rosani.Lib/RosaniTools.cpp0000000000000000^173#18446744073709551615#173#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391673774#1342#165#-1#-4@71"file://localhost/Users/xup6qup3/Dropbox/code/Rosani.Lib/RosaniTools.cpp0000000000000000^173#18446744073709551615#173#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391673774#1715#165#-1#-4@71"file://localhost/Users/xup6qup3/Dropbox/code/Rosani.Lib/RosaniTools.cpp0000000000000000^383#18446744073709551615#383#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391673774#1880#165#-1#-4@71"file://localhost/Users/xup6qup3/Dropbox/code/Rosani.Lib/RosaniTools.cpp0000000000000000^387#18446744073709551615#387#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391673774#2045#165#-1#-4@71"file://localhost/Users/xup6qup3/Dropbox/code/Rosani.Lib/RosaniTools.cpp0000000000000000^394#18446744073709551615#394#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391673774#2210#165#-1#-4@71"file://localhost/Users/xup6qup3/Dropbox/code/Rosani.Lib/RosaniTools.cpp0000000000000000^401#18446744073709551615#401#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391673774#2375#165#-1#-4@71"file://localhost/Users/xup6qup3/Dropbox/code/Rosani.Lib/RosaniTools.cpp0000000000000000^408#18446744073709551615#408#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--0#0#0#-19%DVTDocumentLocation5@104"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp0000000000000000^2196"CompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniTools.o ../../Rosani.Lib/RosaniTools.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -fopenmp -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-generated-files.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-own-target-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-all-target-headers.hmap -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-project-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/include -I/opt/local/include -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources/x86_64 -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -c /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniTools.cpp -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/RosaniTools.o36"0222380C-1721-40A3-A3E7-4365BFA161BE-
+
+CCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/anchorDetection.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/anchorDetection.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s391354492.972520
+e391354494.697446
+r1
+xCompileC
+xBuild/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/anchorDetection.o
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/anchorDetection.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /opt/local/include/opencv2/core/core_c.h:47,
+o                 from /opt/local/include/opencv2/opencv.hpp:46,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/anchorDetection.h:13,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/anchorDetection.cpp:9:
+o/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':
+o/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/anchorDetection.cpp871af97c9853b741^bd8cb27e9853b741^-788"In file included from /opt/local/include/opencv2/core/core_c.h:47,                 from /opt/local/include/opencv2/opencv.hpp:46,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/anchorDetection.h:13,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/anchorDetection.cpp:9:/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value1(21%IDEActivityLogMessage2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391354493#670#118#7(36%IDEActivityLogHeaderInclusionMessage3@115"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/anchorDetection.cpp-391354493#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@109"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/anchorDetection.cpp0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---3@113"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/anchorDetection.h-391354493#18446744073709551615#0#-0#-4@107"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/anchorDetection.h0000000000000000^12#18446744073709551615#12#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h-391354493#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h-391354493#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@59"In file included from /opt/local/include/opencv2/opencv.hpp-391354493#18446744073709551615#0#-0#-4@53"file://localhost/opt/local/include/opencv2/opencv.hpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#---3@62"In file included from /opt/local/include/opencv2/core/core_c.h-391354493#18446744073709551615#0#-0#-4@56"file://localhost/opt/local/include/opencv2/core/core_c.h0000000000000000^46#18446744073709551615#46#18446744073709551615#18446744073709551615#0#---2@106"Implicit conversion shortens 64-bit value into a 32-bit value in /opt/local/include/opencv2/core/types_c.h-391354493#18446744073709551615#0#-0#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#---1#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--0#0#0#-19%DVTDocumentLocation5@109"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/anchorDetection.cpp0000000000000000^2214"CompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/anchorDetection.o repetitionExtract/anchorDetection.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -fopenmp -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-generated-files.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-own-target-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-all-target-headers.hmap -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-project-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/include -I/opt/local/include -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources/x86_64 -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -c /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/anchorDetection.cpp -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/anchorDetection.o36"F37720D3-41C7-44D8-BF72-71273609E4A8-
+
+CCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/circles.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/circles.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s391262437.691763
+e391262439.641362
+r1
+xCompileC
+xBuild/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/circles.o
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/circles.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /opt/local/include/opencv2/core/core_c.h:47,
+o                 from /opt/local/include/opencv2/opencv.hpp:46,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/circles.h:13,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/circles.cpp:9:
+o/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':
+o/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/circles.cppf33bb1e53052b741^5649a4e73052b741^-772"In file included from /opt/local/include/opencv2/core/core_c.h:47,                 from /opt/local/include/opencv2/opencv.hpp:46,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/circles.h:13,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/circles.cpp:9:/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value1(21%IDEActivityLogMessage2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391262438#654#118#7(36%IDEActivityLogHeaderInclusionMessage3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/circles.cpp-391262438#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/circles.cpp0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---3@105"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/circles.h-391262438#18446744073709551615#0#-0#-4@99"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/circles.h0000000000000000^12#18446744073709551615#12#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h-391262438#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h-391262438#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@59"In file included from /opt/local/include/opencv2/opencv.hpp-391262438#18446744073709551615#0#-0#-4@53"file://localhost/opt/local/include/opencv2/opencv.hpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#---3@62"In file included from /opt/local/include/opencv2/core/core_c.h-391262438#18446744073709551615#0#-0#-4@56"file://localhost/opt/local/include/opencv2/core/core_c.h0000000000000000^46#18446744073709551615#46#18446744073709551615#18446744073709551615#0#---2@106"Implicit conversion shortens 64-bit value into a 32-bit value in /opt/local/include/opencv2/core/types_c.h-391262438#18446744073709551615#0#-0#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#---1#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--0#0#0#-19%DVTDocumentLocation5@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/circles.cpp0000000000000000^2182"CompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/circles.o repetitionExtract/circles.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -fopenmp -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-generated-files.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-own-target-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-all-target-headers.hmap -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-project-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/include -I/opt/local/include -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources/x86_64 -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -c /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/circles.cpp -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/circles.o36"F498E676-40F8-4867-AF3D-694FA417BF11-
+
+CCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/detectSliceNum.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s391418591.880752
+e391418594.476328
+r1
+xCompileC
+xBuild/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/detectSliceNum.o
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /opt/local/include/opencv2/core/core_c.h:47,
+o                 from /opt/local/include/opencv2/opencv.hpp:46,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.h:13,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.cpp:9:
+o/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':
+o/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.cpp: In member function 'cv::Mat detectSliceNum::getRotateDiff(const cv::Mat&, const cv::Point&)':
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.cpp:148: warning: implicit conversion shortens 64-bit value into a 32-bit value
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.cpped99e1df9254b741^2e037ae29254b741^-1143"In file included from /opt/local/include/opencv2/core/core_c.h:47,                 from /opt/local/include/opencv2/opencv.hpp:46,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.h:13,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.cpp:9:/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.cpp: In member function 'cv::Mat detectSliceNum::getRotateDiff(const cv::Mat&, const cv::Point&)':/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.cpp:148: warning: implicit conversion shortens 64-bit value into a 32-bit value2(21%IDEActivityLogMessage2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391418592#668#118#7(36%IDEActivityLogHeaderInclusionMessage3@114"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.cpp-391418592#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@108"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.cpp0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---3@112"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.h-391418592#18446744073709551615#0#-0#-4@106"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.h0000000000000000^12#18446744073709551615#12#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h-391418592#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h-391418592#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@59"In file included from /opt/local/include/opencv2/opencv.hpp-391418592#18446744073709551615#0#-0#-4@53"file://localhost/opt/local/include/opencv2/opencv.hpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#---3@62"In file included from /opt/local/include/opencv2/core/core_c.h-391418592#18446744073709551615#0#-0#-4@56"file://localhost/opt/local/include/opencv2/core/core_c.h0000000000000000^46#18446744073709551615#46#18446744073709551615#18446744073709551615#0#---2@106"Implicit conversion shortens 64-bit value into a 32-bit value in /opt/local/include/opencv2/core/types_c.h-391418592#18446744073709551615#0#-0#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#---1#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391418593#974#169#-1#-4@108"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.cpp0000000000000000^147#18446744073709551615#147#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--0#0#0#-19%DVTDocumentLocation5@108"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.cpp0000000000000000^2210"CompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/detectSliceNum.o repetitionExtract/detectSliceNum.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -fopenmp -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-generated-files.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-own-target-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-all-target-headers.hmap -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-project-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/include -I/opt/local/include -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources/x86_64 -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -c /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/detectSliceNum.cpp -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/detectSliceNum.o36"96B03D93-29EB-44B4-956A-32D95A381F62-
+
+CCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/element.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s391354492.602939
+e391354494.476440
+r1
+xCompileC
+xBuild/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/element.o
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /opt/local/include/opencv2/core/core_c.h:47,
+o                 from /opt/local/include/opencv2/opencv.hpp:46,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.h:13,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp:9:
+o/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':
+o/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp: In constructor 'element::element(std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >, tattingPattern&)':
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp:16: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp: In member function 'void element::computeCentroid()':
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp:40: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp:41: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp: In member function 'void element::computeMaxMinRadius(cv::Point)':
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp:52: warning: implicit conversion shortens 64-bit value into a 32-bit value
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cppfbac9a7c9853b741^a0fc797e9853b741^-1915"In file included from /opt/local/include/opencv2/core/core_c.h:47,                 from /opt/local/include/opencv2/opencv.hpp:46,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.h:13,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp:9:/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp: In constructor 'element::element(std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >, tattingPattern&)':/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp:16: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp: In member function 'void element::computeCentroid()':/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp:40: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp:41: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp: In member function 'void element::computeMaxMinRadius(cv::Point)':/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp:52: warning: implicit conversion shortens 64-bit value into a 32-bit value5(21%IDEActivityLogMessage2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391354493#654#118#7(36%IDEActivityLogHeaderInclusionMessage3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp-391354493#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---3@105"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.h-391354493#18446744073709551615#0#-0#-4@99"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.h0000000000000000^12#18446744073709551615#12#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h-391354493#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h-391354493#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@59"In file included from /opt/local/include/opencv2/opencv.hpp-391354493#18446744073709551615#0#-0#-4@53"file://localhost/opt/local/include/opencv2/opencv.hpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#---3@62"In file included from /opt/local/include/opencv2/core/core_c.h-391354493#18446744073709551615#0#-0#-4@56"file://localhost/opt/local/include/opencv2/core/core_c.h0000000000000000^46#18446744073709551615#46#18446744073709551615#18446744073709551615#0#---2@106"Implicit conversion shortens 64-bit value into a 32-bit value in /opt/local/include/opencv2/core/types_c.h-391354493#18446744073709551615#0#-0#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#---1#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391354494#976#161#-1#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp0000000000000000^15#18446744073709551615#15#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391354494#1278#161#-1#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp0000000000000000^39#18446744073709551615#39#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391354494#1439#161#-1#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp0000000000000000^40#18446744073709551615#40#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391354494#1754#161#-1#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp0000000000000000^51#18446744073709551615#51#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--0#0#0#-19%DVTDocumentLocation5@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp0000000000000000^2182"CompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/element.o repetitionExtract/element.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -fopenmp -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-generated-files.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-own-target-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-all-target-headers.hmap -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-project-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/include -I/opt/local/include -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources/x86_64 -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -c /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/element.cpp -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/element.o36"0EBD124E-0F36-44B7-BA18-8E5CB4C4D759-
+
+CCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/main.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s391676326.779965
+e391676329.221611
+r1
+xCompileC
+xBuild/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/main.o
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cpp:13:
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.h:15:1: warning: "PI" redefined
+oIn file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.h:18,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cpp:12:
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.h:16:1: warning: this is the location of the previous definition
+oIn file included from /opt/local/include/opencv2/core/core_c.h:47,
+o                 from /opt/local/include/opencv2/opencv.hpp:46,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cpp:10:
+o/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':
+o/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cppa246c9a68158b741^919b7daf8158b741^-1273"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cpp:13:/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.h:15:1: warning: "PI" redefinedIn file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.h:18,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cpp:12:/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.h:16:1: warning: this is the location of the previous definitionIn file included from /opt/local/include/opencv2/core/core_c.h:47,                 from /opt/local/include/opencv2/opencv.hpp:46,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cpp:10:/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value3(21%IDEActivityLogMessage2@14""PI" redefined-391676327#109#121#2(36%IDEActivityLogHeaderInclusionMessage3@104"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cpp-391676327#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@98"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cpp0000000000000000^12#18446744073709551615#12#18446744073709551615#18446744073709551615#0#---2@108""PI" redefined in /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.h-391676327#18446744073709551615#0#-0#-4@106"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.h0000000000000000^14#18446744073709551615#14#18446744073709551615#18446744073709551615#0#---1#-4@106"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.h0000000000000000^14#18446744073709551615#14#18446744073709551615#18446744073709551615#0#13""*" redefined--2@47"This is the location of the previous definition-391676327#456#157#3(3@104"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cpp-391676327#18446744073709551615#0#-0#-4@98"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cpp0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@112"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.h-391676327#18446744073709551615#0#-0#-4@106"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.h0000000000000000^17#18446744073709551615#17#18446744073709551615#18446744073709551615#0#---2@144"This is the location of the previous definition in /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.h-391676327#18446744073709551615#0#-0#-4@109"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.h0000000000000000^15#18446744073709551615#15#18446744073709551615#18446744073709551615#0#---1#-4@109"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.h0000000000000000^15#18446744073709551615#15#18446744073709551615#18446744073709551615#0#47"This is the location of the previous definition--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391676328#1155#118#6(3@104"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cpp-391676328#18446744073709551615#0#-0#-4@98"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cpp0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h-391676328#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h-391676328#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@59"In file included from /opt/local/include/opencv2/opencv.hpp-391676328#18446744073709551615#0#-0#-4@53"file://localhost/opt/local/include/opencv2/opencv.hpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#---3@62"In file included from /opt/local/include/opencv2/core/core_c.h-391676328#18446744073709551615#0#-0#-4@56"file://localhost/opt/local/include/opencv2/core/core_c.h0000000000000000^46#18446744073709551615#46#18446744073709551615#18446744073709551615#0#---2@106"Implicit conversion shortens 64-bit value into a 32-bit value in /opt/local/include/opencv2/core/types_c.h-391676328#18446744073709551615#0#-0#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#---1#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--0#0#0#-19%DVTDocumentLocation5@98"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cpp0000000000000000^2170"CompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/main.o repetitionExtract/main.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -fopenmp -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-generated-files.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-own-target-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-all-target-headers.hmap -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-project-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/include -I/opt/local/include -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources/x86_64 -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -c /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/main.cpp -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/main.o36"BEE2F5C5-5950-42AE-8ACC-149256EDA458-
+
+CCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/offsetElement.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/offsetElement.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s391418609.826957
+e391418611.906899
+r1
+xCompileC
+xBuild/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/offsetElement.o
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/offsetElement.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /opt/local/include/opencv2/core/core_c.h:47,
+o                 from /opt/local/include/opencv2/opencv.hpp:46,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/offsetElement.h:13,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/offsetElement.cpp:9:
+o/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':
+o/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/offsetElement.cppaa0fd4f19254b741^1a50ebf39254b741^-560"In file included from /opt/local/include/opencv2/core/core_c.h:47,                 from /opt/local/include/opencv2/opencv.hpp:46,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/offsetElement.h:13,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/offsetElement.cpp:9:/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value1(21%IDEActivityLogMessage2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391418610#442#118#5(36%IDEActivityLogHeaderInclusionMessage3@113"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/offsetElement.cpp-391418610#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@107"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/offsetElement.cpp0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---3@111"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/offsetElement.h-391418610#18446744073709551615#0#-0#-4@105"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/offsetElement.h0000000000000000^12#18446744073709551615#12#18446744073709551615#18446744073709551615#0#---3@59"In file included from /opt/local/include/opencv2/opencv.hpp-391418610#18446744073709551615#0#-0#-4@53"file://localhost/opt/local/include/opencv2/opencv.hpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#---3@62"In file included from /opt/local/include/opencv2/core/core_c.h-391418610#18446744073709551615#0#-0#-4@56"file://localhost/opt/local/include/opencv2/core/core_c.h0000000000000000^46#18446744073709551615#46#18446744073709551615#18446744073709551615#0#---2@106"Implicit conversion shortens 64-bit value into a 32-bit value in /opt/local/include/opencv2/core/types_c.h-391418610#18446744073709551615#0#-0#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#---1#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--0#0#0#-19%DVTDocumentLocation5@107"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/offsetElement.cpp0000000000000000^2206"CompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/offsetElement.o repetitionExtract/offsetElement.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -fopenmp -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-generated-files.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-own-target-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-all-target-headers.hmap -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-project-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/include -I/opt/local/include -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources/x86_64 -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -c /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/offsetElement.cpp -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/offsetElement.o36"CAADB929-FEE4-44A4-99C0-FE9FDC529BE3-
+
+CCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/repetendExtract.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s391354490.211045
+e391354493.801864
+r1
+xCompileC
+xBuild/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/repetendExtract.o
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /opt/local/include/opencv2/core/core_c.h:47,
+o                 from /opt/local/include/opencv2/opencv.hpp:46,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.h:13,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp:9:
+o/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':
+o/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp: In member function 'void repetendExtract::extract(tattingPattern)':
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp:94: warning: name lookup of 'i' changed
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp:52: warning:   matches this 'i' under ISO standard rules
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp:77: warning:   matches this 'i' under old rules
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp: In member function 'cv::Point repetendExtract::getElementCentroid(const std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >&)':
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp:309: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp:310: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp: In member function 'void repetendExtract::SIFTFeatureSaliency(tattingPattern&)':
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp:335: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp:335: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp:336: warning: implicit conversion shortens 64-bit value into a 32-bit value
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cppae61367a9853b741^4e46cd7d9853b741^-2639"In file included from /opt/local/include/opencv2/core/core_c.h:47,                 from /opt/local/include/opencv2/opencv.hpp:46,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.h:13,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp:9:/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp: In member function 'void repetendExtract::extract(tattingPattern)':/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp:94: warning: name lookup of 'i' changed/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp:52: warning:   matches this 'i' under ISO standard rules/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp:77: warning:   matches this 'i' under old rules/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp: In member function 'cv::Point repetendExtract::getElementCentroid(const std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >&)':/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp:309: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp:310: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp: In member function 'void repetendExtract::SIFTFeatureSaliency(tattingPattern&)':/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp:335: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp:335: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp:336: warning: implicit conversion shortens 64-bit value into a 32-bit value9(21%IDEActivityLogMessage2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391354491#670#118#7(36%IDEActivityLogHeaderInclusionMessage3@115"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp-391354491#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@109"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---3@113"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.h-391354491#18446744073709551615#0#-0#-4@107"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.h0000000000000000^12#18446744073709551615#12#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h-391354491#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h-391354491#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@59"In file included from /opt/local/include/opencv2/opencv.hpp-391354491#18446744073709551615#0#-0#-4@53"file://localhost/opt/local/include/opencv2/opencv.hpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#---3@62"In file included from /opt/local/include/opencv2/core/core_c.h-391354491#18446744073709551615#0#-0#-4@56"file://localhost/opt/local/include/opencv2/core/core_c.h0000000000000000^46#18446744073709551615#46#18446744073709551615#18446744073709551615#0#---2@106"Implicit conversion shortens 64-bit value into a 32-bit value in /opt/local/include/opencv2/core/types_c.h-391354491#18446744073709551615#0#-0#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#---1#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@26"Name lookup of 'i' changed-391354492#951#134#-1#-4@109"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp0000000000000000^93#18446744073709551615#93#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@41"Matches this 'i' under ISO standard rules-391354492#1085#151#-1#-4@109"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp0000000000000000^51#18446744073709551615#51#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@32"Matches this 'i' under old rules-391354492#1236#142#-1#-4@109"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp0000000000000000^76#18446744073709551615#76#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391354492#1613#170#-1#-4@109"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp0000000000000000^308#18446744073709551615#308#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391354492#1783#170#-1#-4@109"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp0000000000000000^309#18446744073709551615#309#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391354492#2129#170#-1#-4@109"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp0000000000000000^334#18446744073709551615#334#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391354492#2299#170#-1#-4@109"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp0000000000000000^334#18446744073709551615#334#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391354492#2469#170#-1#-4@109"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp0000000000000000^335#18446744073709551615#335#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--0#0#0#-19%DVTDocumentLocation5@109"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp0000000000000000^2214"CompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/repetendExtract.o repetitionExtract/repetendExtract.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -fopenmp -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-generated-files.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-own-target-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-all-target-headers.hmap -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-project-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/include -I/opt/local/include -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources/x86_64 -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -c /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/repetendExtract.cpp -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/repetendExtract.o36"8E2A8529-0C3C-4E06-8D33-B87D46E50B24-
+
+CCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/sliceExtract.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s391334412.145835
+e391334414.047585
+r1
+xCompileC
+xBuild/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/sliceExtract.o
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /opt/local/include/opencv2/core/core_c.h:47,
+o                 from /opt/local/include/opencv2/opencv.hpp:46,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.h:13,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.cpp:9:
+o/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':
+o/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.cpp: In member function 'cv::Mat sliceExtract::getRotateDiff(const cv::Mat&, const cv::Point&)':
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.cpp:154: warning: implicit conversion shortens 64-bit value into a 32-bit value
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.cpp5473250c4a53b741^93370c0e4a53b741^-1133"In file included from /opt/local/include/opencv2/core/core_c.h:47,                 from /opt/local/include/opencv2/opencv.hpp:46,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.h:13,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.cpp:9:/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.cpp: In member function 'cv::Mat sliceExtract::getRotateDiff(const cv::Mat&, const cv::Point&)':/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.cpp:154: warning: implicit conversion shortens 64-bit value into a 32-bit value2(21%IDEActivityLogMessage2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391334413#664#118#7(36%IDEActivityLogHeaderInclusionMessage3@112"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.cpp-391334413#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@106"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.cpp0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---3@110"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.h-391334413#18446744073709551615#0#-0#-4@104"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.h0000000000000000^12#18446744073709551615#12#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h-391334413#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h-391334413#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@59"In file included from /opt/local/include/opencv2/opencv.hpp-391334413#18446744073709551615#0#-0#-4@53"file://localhost/opt/local/include/opencv2/opencv.hpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#---3@62"In file included from /opt/local/include/opencv2/core/core_c.h-391334413#18446744073709551615#0#-0#-4@56"file://localhost/opt/local/include/opencv2/core/core_c.h0000000000000000^46#18446744073709551615#46#18446744073709551615#18446744073709551615#0#---2@106"Implicit conversion shortens 64-bit value into a 32-bit value in /opt/local/include/opencv2/core/types_c.h-391334413#18446744073709551615#0#-0#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#---1#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391334413#966#167#-1#-4@106"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.cpp0000000000000000^153#18446744073709551615#153#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--0#0#0#-19%DVTDocumentLocation5@106"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.cpp0000000000000000^2202"CompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/sliceExtract.o repetitionExtract/sliceExtract.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -fopenmp -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-generated-files.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-own-target-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-all-target-headers.hmap -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-project-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/include -I/opt/local/include -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources/x86_64 -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -c /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceExtract.cpp -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/sliceExtract.o36"EEDCC8CB-9523-4005-9F4D-D8DCD2AC13D8-
+
+CCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/sliceSynthesis.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s391696557.992835
+e391696559.309461
+r1
+xCompileC
+xBuild/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/sliceSynthesis.o
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /opt/local/include/opencv2/core/core_c.h:47,
+o                 from /opt/local/include/opencv2/opencv.hpp:46,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.h:13,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp:9:
+o/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':
+o/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp: In member function 'cv::Mat sliceSynthesis::sliceGaussianRG(int, double, const cv::Point&, cv::Size)':
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp:102: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp:109: warning: implicit conversion shortens 64-bit value into a 32-bit value
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp3144feadd058b741^50384fafd058b741^-1321"In file included from /opt/local/include/opencv2/core/core_c.h:47,                 from /opt/local/include/opencv2/opencv.hpp:46,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.h:13,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp:9:/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp: In member function 'cv::Mat sliceSynthesis::sliceGaussianRG(int, double, const cv::Point&, cv::Size)':/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp:102: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp:109: warning: implicit conversion shortens 64-bit value into a 32-bit value3(21%IDEActivityLogMessage2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391696558#668#118#7(36%IDEActivityLogHeaderInclusionMessage3@114"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp-391696558#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@108"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---3@112"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.h-391696558#18446744073709551615#0#-0#-4@106"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.h0000000000000000^12#18446744073709551615#12#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h-391696558#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h-391696558#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@59"In file included from /opt/local/include/opencv2/opencv.hpp-391696558#18446744073709551615#0#-0#-4@53"file://localhost/opt/local/include/opencv2/opencv.hpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#---3@62"In file included from /opt/local/include/opencv2/core/core_c.h-391696558#18446744073709551615#0#-0#-4@56"file://localhost/opt/local/include/opencv2/core/core_c.h0000000000000000^46#18446744073709551615#46#18446744073709551615#18446744073709551615#0#---2@106"Implicit conversion shortens 64-bit value into a 32-bit value in /opt/local/include/opencv2/core/types_c.h-391696558#18446744073709551615#0#-0#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#---1#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391696558#983#169#-1#-4@108"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp0000000000000000^101#18446744073709551615#101#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391696558#1152#169#-1#-4@108"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp0000000000000000^108#18446744073709551615#108#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--0#0#0#-19%DVTDocumentLocation5@108"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp0000000000000000^2210"CompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/sliceSynthesis.o repetitionExtract/sliceSynthesis.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -fopenmp -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-generated-files.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-own-target-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-all-target-headers.hmap -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-project-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/include -I/opt/local/include -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources/x86_64 -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -c /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/sliceSynthesis.cpp -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/sliceSynthesis.o36"8D42391B-934D-4B20-BE94-69DA431C5880-
+
+CCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/symmetryDetection.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s391418664.032259
+e391418665.418559
+r1
+xCompileC
+xBuild/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/symmetryDetection.o
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /opt/local/include/opencv2/core/core_c.h:47,
+o                 from /opt/local/include/opencv2/opencv.hpp:46,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.h:14,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.cpp:9:
+o/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':
+o/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.cpp: In member function 'double symmetryDetection::detectSymmetryAngle(const cv::Mat&, const cv::Point&)':
+o/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.cpp:61: warning: implicit conversion shortens 64-bit value into a 32-bit value
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.cpp55dc08289354b741^7b326b299354b741^-1162"In file included from /opt/local/include/opencv2/core/core_c.h:47,                 from /opt/local/include/opencv2/opencv.hpp:46,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.h:14,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.cpp:9:/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.cpp: In member function 'double symmetryDetection::detectSymmetryAngle(const cv::Mat&, const cv::Point&)':/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.cpp:61: warning: implicit conversion shortens 64-bit value into a 32-bit value2(21%IDEActivityLogMessage2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391418664#674#118#7(36%IDEActivityLogHeaderInclusionMessage3@117"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.cpp-391418664#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@111"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.cpp0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---3@115"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.h-391418664#18446744073709551615#0#-0#-4@109"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.h0000000000000000^13#18446744073709551615#13#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h-391418664#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h-391418664#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@59"In file included from /opt/local/include/opencv2/opencv.hpp-391418664#18446744073709551615#0#-0#-4@53"file://localhost/opt/local/include/opencv2/opencv.hpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#---3@62"In file included from /opt/local/include/opencv2/core/core_c.h-391418664#18446744073709551615#0#-0#-4@56"file://localhost/opt/local/include/opencv2/core/core_c.h0000000000000000^46#18446744073709551615#46#18446744073709551615#18446744073709551615#0#---2@106"Implicit conversion shortens 64-bit value into a 32-bit value in /opt/local/include/opencv2/core/types_c.h-391418664#18446744073709551615#0#-0#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#---1#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391418665#991#171#-1#-4@111"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.cpp0000000000000000^60#18446744073709551615#60#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--0#0#0#-19%DVTDocumentLocation5@111"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.cpp0000000000000000^2222"CompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/symmetryDetection.o repetitionExtract/symmetryDetection.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -fopenmp -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-generated-files.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-own-target-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-all-target-headers.hmap -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-project-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/include -I/opt/local/include -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources/x86_64 -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -c /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/symmetryDetection.cpp -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/symmetryDetection.o36"DCEA5725-8339-4C30-86AD-761884696ED4-
+
+CCompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/tattingPattern.o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s391419247.963778
+e391419249.508633
+r1
+xCompileC
+xBuild/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/tattingPattern.o
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /opt/local/include/opencv2/core/core_c.h:47,
+o                 from /opt/local/include/opencv2/opencv.hpp:46,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.h:15,
+o                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.cpp:9:
+o/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':
+o/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.cpp44def66f9554b741^653882719554b741^-786"In file included from /opt/local/include/opencv2/core/core_c.h:47,                 from /opt/local/include/opencv2/opencv.hpp:46,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h:12,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.h:15,                 from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.cpp:9:/opt/local/include/opencv2/core/types_c.h: In function 'int cvIplDepth(int)':/opt/local/include/opencv2/core/types_c.h:799: warning: implicit conversion shortens 64-bit value into a 32-bit value1(21%IDEActivityLogMessage2@61"Implicit conversion shortens 64-bit value into a 32-bit value-391419248#668#118#7(36%IDEActivityLogHeaderInclusionMessage3@114"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.cpp-391419248#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@108"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.cpp0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---3@112"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.h-391419248#18446744073709551615#0#-0#-4@106"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.h0000000000000000^14#18446744073709551615#14#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h-391419248#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/Rosaniline.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@107"In file included from /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h-391419248#18446744073709551615#0#-0#-4@101"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/../../Rosani.Lib/RosaniDraw.h0000000000000000^11#18446744073709551615#11#18446744073709551615#18446744073709551615#0#---3@59"In file included from /opt/local/include/opencv2/opencv.hpp-391419248#18446744073709551615#0#-0#-4@53"file://localhost/opt/local/include/opencv2/opencv.hpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#---3@62"In file included from /opt/local/include/opencv2/core/core_c.h-391419248#18446744073709551615#0#-0#-4@56"file://localhost/opt/local/include/opencv2/core/core_c.h0000000000000000^46#18446744073709551615#46#18446744073709551615#18446744073709551615#0#---2@106"Implicit conversion shortens 64-bit value into a 32-bit value in /opt/local/include/opencv2/core/types_c.h-391419248#18446744073709551615#0#-0#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#---1#-4@57"file://localhost/opt/local/include/opencv2/core/types_c.h0000000000000000^798#18446744073709551615#798#18446744073709551615#18446744073709551615#0#61"Implicit conversion shortens 64-bit value into a 32-bit value--0#0#0#-19%DVTDocumentLocation5@108"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.cpp0000000000000000^2210"CompileC Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/tattingPattern.o repetitionExtract/tattingPattern.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -fopenmp -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -mmacosx-version-min=10.8 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-generated-files.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-own-target-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-all-target-headers.hmap -iquote /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/repetitionExtract-project-headers.hmap -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/include -I/opt/local/include -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources/x86_64 -I/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/DerivedSources -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -c /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/repetitionExtract/tattingPattern.cpp -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/tattingPattern.o36"DDFE90D3-5C9D-4FDE-B034-53D71E33770E-
+
+CGenerateDSYMFile /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/repetitionExtract.dSYM /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/repetitionExtract
+s391696559.567212
+e391696559.712103
+r1
+xGenerateDSYMFile
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/repetitionExtract.dSYM
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/repetitionExtract
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Generate /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/repetitionExtract.dSYMed4491afd058b741^e602bbafd058b741^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/repetitionExtract.dSYM/0000000000000000^469"GenerateDSYMFile Build/Products/Release/repetitionExtract.dSYM Build/Products/Release/repetitionExtract    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/repetitionExtract -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/repetitionExtract.dSYM36"D928C016-14D5-4330-9485-D5EE649806C0-
+
+CLd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/repetitionExtract normal x86_64
+s391696559.319955
+e391696559.560117
+r1
+xLd
+x/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/repetitionExtract
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Link /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/repetitionExtract0dff51afd058b741^91638fafd058b741^---0#0#0#--1279"Ld Build/Products/Release/repetitionExtract normal x86_64    cd /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/usr/bin/llvm-g++-4.2 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -L/opt/local/lib -F/Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release -filelist /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Intermediates/repetitionExtract.build/Release/repetitionExtract.build/Objects-normal/x86_64/repetitionExtract.LinkFileList -mmacosx-version-min=10.8 -fopenmp -stdlib=libstdc++ -lopencv_calib3d.2.4.5 -lopencv_contrib.2.4.5 -lopencv_core.2.4.5 -lopencv_features2d.2.4.5 -lopencv_flann.2.4.5 -lopencv_gpu.2.4.5 -lopencv_highgui.2.4.5 -lopencv_imgproc.2.4.5 -lopencv_legacy.2.4.5 -lopencv_ml.2.4.5 -lopencv_nonfree.2.4.5 -lopencv_objdetect.2.4.5 -lopencv_photo.2.4.5 -lopencv_stitching.2.4.5 -lopencv_superres.2.4.5 -lopencv_ts.2.4.5 -lopencv_video.2.4.5 -lopencv_videostab.2.4.5 -o /Users/xup6qup3/Dropbox/code/Dev.temp/repetitionExtract/Build/Products/Release/repetitionExtract36"A77DB939-88A5-441B-9DAF-8FE9E4E3ACBB-
+

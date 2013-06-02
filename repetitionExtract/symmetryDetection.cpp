@@ -18,26 +18,23 @@ symmetryDetection::~symmetryDetection() {
 }
 
 
-double symmetryDetection::detectSymmetryAngle (const cv::Mat &img) {
-    
-    if ( img.type() != CV_8UC1 ) {
-        cvtColor(img, img, CV_BGR2GRAY);
-    }
+double symmetryDetection::detectSymmetryAngle (const Mat& pattern, const Point& centroid) {
     
     
     vector<int> angles;
     
-    for (int radius = CONCENTRIC_MIN_RADIUS; radius < getMinContainingRadius(img); radius += CONCENTRIC_SAMPLE_STEP) {
+    for (int radius = CONCENTRIC_MIN_RADIUS; radius < getMinContainingRadius(pattern, centroid); radius += CONCENTRIC_SAMPLE_STEP) {
         
-        vector<Point> circle_pts = getCirclePoint(getCentroid(img), radius);
+        vector<Point> circle_pts = getCirclePoints(centroid, radius);
+
         
-        Mat circle_pt_mat = Mat((int)circle_pts.size(), 1, CV_8UC1);
+        Mat circle_pt_mat = Mat((int)circle_pts.size(), 1, CV_64FC1);
         Mat convolved_mat = Mat((int)circle_pts.size(), 1, CV_64FC1);
         
         
         for (int i = 0; i < circle_pts.size(); i ++) {
             
-            circle_pt_mat.at<uchar>(i, 0) = img.at<uchar>(circle_pts[i]);
+            circle_pt_mat.at<double>(i, 0) = pattern.at<double>(circle_pts[i]);
             
         }
         
@@ -70,93 +67,35 @@ double symmetryDetection::detectSymmetryAngle (const cv::Mat &img) {
     }
     
     
-    
     return mode(angles);
 
     
 }
 
 
-int symmetryDetection::getMinContainingRadius (const cv::Mat &img) {
+int symmetryDetection::getMinContainingRadius (const Mat& pattern, const Point& centroid) {
     
-    Mat plot = img.clone();
-    Point centroid = getCentroid(img);
-    bool touch = false;
     int min_radius = 0;
     
-    
-    for (int r = INNER_MOST_RADIUS; r < img.rows/2; r ++) {
+    for (int r = INNER_MOST_RADIUS; r < pattern.rows/2; r ++) {
         
-        vector<Point>circle_p = getCirclePoint(centroid, r);
-        touch = false;
+        vector<Point>circle_p = getCirclePoints(centroid, r);
         
         for (int i = 0; i < circle_p.size(); i ++) {
             
-            if ( plot.at<uchar>(circle_p[i]) != 0 ) {
-                touch = true;
+            if ( pattern.at<double>(circle_p[i]) ) {
+                
+                min_radius = r;
                 break;
             }
-            
-        }
-        
-        if ( !touch ) {
-            
-            min_radius = r;
-            break;
+             
         }
     }
     
-    return min_radius;
     
+    return min_radius;    
 }
 
-
-Point symmetryDetection::getCentroid(const cv::Mat &img) {
-
-    Moments mo = moments(img);
-    
-    return Point(mo.m10/mo.m00, mo.m01/mo.m00);
-    
-}
-
-
-vector<Point> symmetryDetection::getCirclePoint(const Point &centroid, int radius) {
-    
-    vector<Point> growing_circle;
-    int boundary = radius/sqrt(2);
-    
-    for (int i = -boundary; i <= boundary; i ++) {
-        
-        int j = sqrt(radius*radius - i*i);
-        growing_circle.push_back(centroid + Point(i, -j));
-        
-    }
-    
-    for (int j = -boundary ; j <= boundary; j ++) {
-        
-        int i = sqrt(radius*radius - j*j);
-        growing_circle.push_back(centroid + Point(i, j));
-        
-    }
-    
-    for (int i = boundary; i >= -boundary; i --) {
-        
-        int j = sqrt(radius*radius - i*i);
-        growing_circle.push_back(centroid + Point(i, j));
-        
-    }
-    
-    for (int j = boundary ; j >= -boundary; j --) {
-        
-        int i = sqrt(radius*radius - j*j);
-        growing_circle.push_back(centroid + Point(-i, j));
-        
-    }
-    
-    
-    return growing_circle;
-    
-}
 
 
 
@@ -166,7 +105,7 @@ double symmetryDetection::convolveMat(const cv::Mat &mat) {
     
     for (int i = 0; i < mat.rows; i ++) {
         
-        value += mat.at<uchar>(i, 0)*mat.at<uchar>(mat.rows - 1 - i, 0);
+        value += mat.at<double>(i, 0)*mat.at<double>(mat.rows - 1 - i, 0);
     }
     
     return value;
@@ -175,14 +114,14 @@ double symmetryDetection::convolveMat(const cv::Mat &mat) {
 
 void symmetryDetection::shiftMatElement(cv::Mat &mat) {
     
-    uchar temp = mat.at<uchar>(0, 0);
+    double temp = mat.at<double>(0, 0);
     
     for (int i = 1; i < mat.rows; i ++) {
         
-        mat.at<uchar>(i - 1, 0) = mat.at<uchar>(i, 0);
+        mat.at<double>(i - 1, 0) = mat.at<double>(i, 0);
     }
     
-    mat.at<uchar>(mat.rows - 1) = temp;
+    mat.at<double>(mat.rows - 1) = temp;
     
 }
 
@@ -211,7 +150,7 @@ int symmetryDetection::mode(const vector<int>& array) {
     }
     
     int max_index = -1;
-    int max_temp = 0.0;
+    int max_temp = 0;
     
     for (int i = 0; i < counts.size(); i ++) {
         
@@ -221,6 +160,7 @@ int symmetryDetection::mode(const vector<int>& array) {
         }
     }
     
+
     
     return angles[max_index];
 
